@@ -4,12 +4,16 @@ import { faqItems } from "@/data/faq";
 import { homePage } from "@/data/pages/home";
 import { resonancePages } from "@/data/pages/resonance-pages";
 import { sitePages } from "@/data/pages/site-pages";
+import { guidesPage, wikiPage, faqPage } from "@/data/pages/system-pages";
 import { buildEntityPages } from "@/lib/entities";
 import { normalizePath } from "@/lib/localization";
 
 const fixedPages: PageContent[] = [
   homePage,
   ...resonancePages,
+  guidesPage,
+  wikiPage,
+  faqPage,
   ...sitePages,
 ];
 

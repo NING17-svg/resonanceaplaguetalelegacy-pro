@@ -1,0 +1,242 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "fixed-characters-overview-en-us",
+    "translationKey": "characters-overview",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/characters",
+    "alternates": {
+      "en-US": "/characters"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "fixed-editions-pricing-en-us",
+    "translationKey": "editions-pricing",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/editions",
+    "alternates": {
+      "en-US": "/editions"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq",
+    "alternates": {
+      "en-US": "/faq"
+    }
+  },
+  {
+    "id": "fixed-gameplay-explained-en-us",
+    "translationKey": "gameplay-explained",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/gameplay",
+    "alternates": {
+      "en-US": "/gameplay"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides",
+    "alternates": {
+      "en-US": "/guides"
+    }
+  },
+  {
+    "id": "fixed-heritage-pack-dlc-en-us",
+    "translationKey": "heritage-pack-dlc",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/heritage-pack",
+    "alternates": {
+      "en-US": "/heritage-pack"
+    }
+  },
+  {
+    "id": "fixed-how-long-to-beat-en-us",
+    "translationKey": "how-long-to-beat",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/how-long-to-beat",
+    "alternates": {
+      "en-US": "/how-long-to-beat"
+    }
+  },
+  {
+    "id": "fixed-metacritic-score-en-us",
+    "translationKey": "metacritic-score",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/metacritic",
+    "alternates": {
+      "en-US": "/metacritic"
+    }
+  },
+  {
+    "id": "fixed-minotaur-mythos-en-us",
+    "translationKey": "minotaur-mythos",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/minotaur-mythos",
+    "alternates": {
+      "en-US": "/minotaur-mythos"
+    }
+  },
+  {
+    "id": "fixed-platforms-console-en-us",
+    "translationKey": "platforms-console",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/platforms",
+    "alternates": {
+      "en-US": "/platforms"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "fixed-release-overview-en-us",
+    "translationKey": "release-overview",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release",
+    "alternates": {
+      "en-US": "/release"
+    }
+  },
+  {
+    "id": "fixed-review-roundup-en-us",
+    "translationKey": "review-roundup",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/reviews",
+    "alternates": {
+      "en-US": "/reviews"
+    }
+  },
+  {
+    "id": "fixed-system-requirements-en-us",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements",
+    "alternates": {
+      "en-US": "/system-requirements"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "fixed-beginner-tips-en-us",
+    "translationKey": "beginner-tips",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/tips",
+    "alternates": {
+      "en-US": "/tips"
+    }
+  },
+  {
+    "id": "fixed-trophy-achievements-en-us",
+    "translationKey": "trophy-achievements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/trophy-achievements",
+    "alternates": {
+      "en-US": "/trophy-achievements"
+    }
+  },
+  {
+    "id": "fixed-vs-plague-tale-series-en-us",
+    "translationKey": "vs-plague-tale-series",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/vs-plague-tale-series",
+    "alternates": {
+      "en-US": "/vs-plague-tale-series"
+    }
+  },
+  {
+    "id": "fixed-walkthrough-en-us",
+    "translationKey": "walkthrough",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/walkthrough",
+    "alternates": {
+      "en-US": "/walkthrough"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki",
+    "alternates": {
+      "en-US": "/wiki"
+    }
+  },
+  {
+    "id": "fixed-xbox-game-pass-en-us",
+    "translationKey": "xbox-game-pass",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/xbox-game-pass",
+    "alternates": {
+      "en-US": "/xbox-game-pass"
+    }
+  }
+]
