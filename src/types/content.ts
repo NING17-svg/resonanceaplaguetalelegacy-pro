@@ -6,7 +6,21 @@ import type {
   WorkspaceVariant,
 } from "@/types/theme";
 
-export type PageType = "home" | "wiki" | "guides" | "release" | "faq" | "site" | "entity";
+export type PageType =
+  | "home"
+  | "homepage"
+  | "wiki"
+  | "guides"
+  | "release"
+  | "status"
+  | "reference"
+  | "list"
+  | "explanation"
+  | "guide"
+  | "comparison"
+  | "faq"
+  | "site"
+  | "entity";
 export type RouteKind = "home" | "fixed" | "tool" | "entity-hub" | "entity-detail";
 
 export type SchemaType =
