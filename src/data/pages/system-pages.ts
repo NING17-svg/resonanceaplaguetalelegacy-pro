@@ -1,9 +1,9 @@
 import type { PageContent } from "@/types/content";
 
-// Resonance: A Plague Tale Legacy — template-level CollectionPage overview hubs.
-// The V3 route contract and template validator require `guides` and `wiki`
-// translation keys; they expose curated entry points into the fixed pages but
-// do not introduce content beyond what the V3 content package approved.
+// Resonance: A Plague Tale Legacy — CollectionPage overview hubs.
+// The V3 route contract requires `guides` and `wiki` translation keys; they
+// expose curated entry points into the fixed pages but do not introduce
+// content beyond what the approved localized copy covers.
 
 const LAST_REVIEWED = "2026-08-28";
 

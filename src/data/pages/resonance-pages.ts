@@ -1860,7 +1860,7 @@ export const resonancePages: PageContent[] = [
         type: "prose",
         heading: "Boss pacing and the parry / kick window",
         body:
-          "Boss pacing in the Minoan branch mirrors classic Plague Tale boss pacing: short wind-ups, a tight parry / kick window, and a stun opening for chain sword combos. The first Macula's legacy encounter at the launch window sets the template, with each subsequent creature adding a phase or a new behaviour rather than reworking the timing.",
+          "Boss pacing in the Minoan branch mirrors classic Plague Tale boss pacing: short wind-ups, a tight parry / kick window, and a stun opening for chain sword combos. The first Macula's legacy encounter at the launch window sets the cadence, with each subsequent creature adding a phase or a new behaviour rather than reworking the timing.",
         links: [RESONANCE_IGN],
       },
       {
