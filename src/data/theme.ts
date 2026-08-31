@@ -1,46 +1,64 @@
 import type { ThemeConfig } from "@/types/theme";
 
+// Resonance: A Plague Tale Legacy — V3 dark medieval-plague theme.
+// Implemented strictly from /site-launch/tasks/resonanceaplaguetalelegacy-pro/design/theme-spec.md.
+// Single shared theme for every launch locale (en-US); no per-locale token set,
+// shell variant, or visual direction exists. Identity is conveyed through
+// ink-dark surfaces, warm bronze-gold Minoan accents, oxblood Macula threat,
+// and a low-density labyrinth line motif — never through the official logo.
+
 export const theme = {
-  mode: "light",
+  mode: "dark",
   tokens: {
-    pageBg: "#f5f6f1",
-    surface1: "#ffffff",
-    surface2: "#eef2ed",
-    surface3: "#e4e9e3",
-    surfaceInverse: "#18201d",
-    textPrimary: "#18201d",
-    textMuted: "#5d6862",
-    textInverse: "#ffffff",
-    textOnAccentPrimary: "#ffffff",
-    textLink: "#2f6f5e",
-    focusRing: "#2f6f5e",
-    line: "#d8ded7",
-    lineStrong: "#7d8982",
-    accentPrimary: "#2f6f5e",
-    accentSecondary: "#b85c38",
-    accentBright: "#c49a35",
-    statusConfirmed: "#2f6f5e",
-    statusCaution: "#9b651f",
-    statusUnknown: "#69736e",
+    pageBg: "#0E1015",
+    surface1: "#161A22",
+    surface2: "#1F2330",
+    surface3: "#2A2F3F",
+    surfaceInverse: "#E8DDC4",
+    textPrimary: "#EFE6D2",
+    textMuted: "#9C97A8",
+    textInverse: "#0E1015",
+    textOnAccentPrimary: "#0E1015",
+    textLink: "#D89F4D",
+    focusRing: "#F2C77E",
+    line: "#2F3447",
+    lineStrong: "#4D5167",
+    accentPrimary: "#C89C5C",
+    accentSecondary: "#7A3A3A",
+    accentBright: "#E2B25C",
+    statusConfirmed: "#6FB37C",
+    statusCaution: "#C98A3C",
+    statusUnknown: "#9C97A8",
   },
   typography: {
-    headingFamily: "Inter, ui-sans-serif, system-ui, sans-serif",
-    bodyFamily: "Inter, ui-sans-serif, system-ui, sans-serif",
+    headingFamily: "Cinzel, 'EB Garamond', 'Trajan Pro', Georgia, serif",
+    bodyFamily: "Inter, 'Helvetica Neue', Arial, system-ui, sans-serif",
     headingWeight: 800,
   },
   shape: {
-    radius: "8px",
+    radius: "4px",
     borderWidth: "1px",
-    shadow: "0 18px 50px rgba(24, 32, 29, 0.08)",
-    hoverLift: "-2px",
+    shadow: "0 1px 2px rgba(0,0,0,0.45), 0 8px 24px rgba(0,0,0,0.35)",
+    hoverLift: "2px",
   },
   density: "comfortable",
-  background: { mode: "solid", overlay: 0, position: "center" },
+  background: { mode: "gradient", overlay: 0.4, position: "center top" },
   variants: {
     home: "split-panel",
     hub: "card-grid",
     content: "reading-right-rail",
     workspace: "full-width",
   },
-  decoration: { motif: "none", intensity: "low" },
+  decoration: { motif: "lines", intensity: "low" },
 } satisfies ThemeConfig;
+
+// Single shared font fallback for the only declared launch locale (en-US).
+// The fallback duplicates the shared stacks so the locale contract satisfies
+// the theme-spec validation rule without inventing a per-locale direction.
+export const localeFontFallbacks = [
+  {
+    locale: "en-US",
+    heading: "Cinzel, 'EB Garamond', 'Trajan Pro', Georgia, serif",
+    body: "Inter, 'Helvetica Neue', Arial, system-ui, sans-serif",
+  },
+];

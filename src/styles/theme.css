@@ -1,30 +1,33 @@
 :root {
-  --page-bg: #f5f6f1;
-  --surface-1: #ffffff;
-  --surface-2: #eef2ed;
-  --surface-3: #e4e9e3;
-  --surface-inverse: #18201d;
-  --text-primary: #18201d;
-  --text-muted: #5d6862;
-  --text-inverse: #ffffff;
-  --text-on-accent-primary: #ffffff;
-  --text-link: #2f6f5e;
-  --focus-ring: #2f6f5e;
-  --line: #d8ded7;
-  --line-strong: #7d8982;
-  --accent-primary: #2f6f5e;
-  --accent-secondary: #b85c38;
-  --accent-bright: #c49a35;
-  --status-confirmed: #2f6f5e;
-  --status-caution: #9b651f;
-  --status-unknown: #69736e;
-  --font-heading: Inter, ui-sans-serif, system-ui, sans-serif;
-  --font-body: Inter, ui-sans-serif, system-ui, sans-serif;
+  /* Resonance: A Plague Tale Legacy — V3 dark medieval-plague theme tokens.
+     Values mirror src/data/theme.ts, which itself implements
+     site-launch/tasks/resonanceaplaguetalelegacy-pro/design/theme-spec.md. */
+  --page-bg: #0E1015;
+  --surface-1: #161A22;
+  --surface-2: #1F2330;
+  --surface-3: #2A2F3F;
+  --surface-inverse: #E8DDC4;
+  --text-primary: #EFE6D2;
+  --text-muted: #9C97A8;
+  --text-inverse: #0E1015;
+  --text-on-accent-primary: #0E1015;
+  --text-link: #D89F4D;
+  --focus-ring: #F2C77E;
+  --line: #2F3447;
+  --line-strong: #4D5167;
+  --accent-primary: #C89C5C;
+  --accent-secondary: #7A3A3A;
+  --accent-bright: #E2B25C;
+  --status-confirmed: #6FB37C;
+  --status-caution: #C98A3C;
+  --status-unknown: #9C97A8;
+  --font-heading: Cinzel, 'EB Garamond', 'Trajan Pro', Georgia, serif;
+  --font-body: Inter, 'Helvetica Neue', Arial, system-ui, sans-serif;
   --heading-weight: 800;
   --border-width: 1px;
-  --radius: 8px;
-  --shadow: 0 18px 50px rgba(24, 32, 29, 0.08);
-  --hover-lift: -2px;
+  --radius: 4px;
+  --shadow: 0 1px 2px rgba(0,0,0,0.45), 0 8px 24px rgba(0,0,0,0.35);
+  --hover-lift: 2px;
   --max-width: 1180px;
 }
 
@@ -62,11 +65,13 @@
 .site-theme .brand {
   font-family: var(--font-heading);
   font-weight: var(--heading-weight);
+  letter-spacing: 0.02em;
+  line-height: 1.15;
 }
 
 .site-theme :focus-visible {
-  outline: 3px solid var(--focus-ring);
-  outline-offset: 3px;
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
 }
 
 .theme-dark,
@@ -84,21 +89,33 @@
   --card-padding: 22px;
 }
 
+/* Theme-spec "lines" motif — a thin bronze labyrinth segment traced at low
+   intensity along page edges and Hub section dividers. Image-free contract:
+   no hero asset, no remote hotlink, no official logo. */
 .motif-low {
-  --motif-opacity: 0.55;
+  --motif-opacity: 0.18;
 }
 
 .motif-medium {
-  --motif-opacity: 1;
+  --motif-opacity: 0.45;
 }
 
 .motif-lines {
-  --motif-image: linear-gradient(
-    115deg,
-    transparent 0 72%,
-    color-mix(in srgb, var(--accent-primary) 16%, transparent) 72% 74%,
-    transparent 74%
-  );
+  --motif-image:
+    linear-gradient(
+      90deg,
+      transparent 0 6%,
+      color-mix(in srgb, var(--accent-primary) 60%, transparent) 6% 6.4%,
+      transparent 6.4% 14%,
+      color-mix(in srgb, var(--accent-primary) 60%, transparent) 14% 14.4%,
+      transparent 14.4% 100%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 0 92%,
+      color-mix(in srgb, var(--accent-primary) 35%, transparent) 92% 92.4%,
+      transparent 92.4% 100%
+    );
 }
 
 .motif-dots {
@@ -124,13 +141,25 @@
   );
 }
 
+/* Theme-spec gradient background — vertical ink-dark sweep with a 40% overlay
+   to guarantee body text contrast above the background treatment. */
 .background-gradient {
   background:
     linear-gradient(
-      135deg,
-      color-mix(in srgb, var(--accent-primary) 18%, var(--page-bg)),
-      var(--page-bg)
+      180deg,
+      #0E1015 0%,
+      #11141D 50%,
+      #0E1015 100%
     );
+  position: relative;
+}
+
+.background-gradient::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
 }
 
 .background-texture {
@@ -152,4 +181,94 @@
     var(--background-image);
   background-position: var(--background-position);
   background-size: cover;
+}
+
+/* Theme-spec status pill palette — pairs above 4.5:1 contrast. */
+.pill-confirmed {
+  background: var(--status-confirmed);
+  color: #0E1015;
+}
+
+.pill-caution {
+  background: var(--status-caution);
+  color: #0E1015;
+}
+
+.pill-unknown {
+  background: #3A3F5C;
+  color: var(--text-primary);
+}
+
+/* Theme-spec CTAs — bronze primary, surface-3 secondary, amber ghost link. */
+.cta-primary {
+  background: var(--accent-primary);
+  color: var(--text-on-accent-primary);
+  border: var(--border-width) solid var(--accent-primary);
+  border-radius: var(--radius);
+}
+
+.cta-primary:hover {
+  background: var(--accent-bright);
+  border-color: var(--accent-bright);
+  transform: translateY(calc(-1 * var(--hover-lift)));
+}
+
+.cta-secondary {
+  background: var(--surface-3);
+  color: var(--text-primary);
+  border: var(--border-width) solid var(--line);
+  border-radius: var(--radius);
+}
+
+.cta-secondary:hover {
+  background: var(--surface-2);
+  transform: translateY(calc(-1 * var(--hover-lift)));
+}
+
+.ghost-link {
+  color: var(--text-link);
+  text-decoration: none;
+}
+
+.ghost-link:hover {
+  text-decoration: underline;
+}
+
+/* Theme-spec card and right-rail surfaces. */
+.surface-card {
+  background: var(--surface-2);
+  border: var(--border-width) solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Theme-spec callout — surface-2 base with a 4px bronze left border. */
+.callout {
+  background: var(--surface-2);
+  border-left: 4px solid var(--accent-primary);
+  border-radius: var(--radius);
+  padding: var(--card-padding);
+}
+
+.callout-heading {
+  color: var(--accent-primary);
+}
+
+/* Theme-spec narrow-viewport stacking — primary nav vertical, hero CTA full
+   width, status pills full-width buttons, comparison tables horizontally
+   scrollable inside their own container. */
+@media (max-width: 640px) {
+  .site-theme .hero-cta-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .site-theme .pill-confirmed,
+  .site-theme .pill-caution,
+  .site-theme .pill-unknown {
+    width: 100%;
+    text-align: center;
+  }
+  .site-theme .comparison-table {
+    overflow-x: auto;
+  }
 }
