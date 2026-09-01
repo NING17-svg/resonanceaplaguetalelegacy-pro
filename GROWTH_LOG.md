@@ -32,3 +32,10 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Content changed: Neutral placeholder content only.
 - Ad baseline: Fixed Adsterra-ready modules are present and disabled; no ad markup or request is emitted.
 - Follow-up: Replace this entry with a real launch/configuration entry when the one-click builder fills the site for a specific game.
+
+### 2026-09-01 - Adsterra integration (Native Banner + 4 banners + Smartlink)
+
+- Task: Populate the fixed six Adsterra ad units with real codes from the Adsterra dashboard and prepare the target site for live ad delivery.
+- Files changed: `src/data/ads.ts`, `GROWTH_LOG.md`.
+- Ad values: Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink — all six replaced from empty placeholders to active Adsterra placement codes.
+- Verification: Local `npm run verify` chain run after the change.
