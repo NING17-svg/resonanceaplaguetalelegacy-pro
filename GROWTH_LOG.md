@@ -39,3 +39,12 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 - Files changed: `src/data/ads.ts`, `GROWTH_LOG.md`.
 - Ad values: Native Banner, 728x90, 468x60, 320x50, 160x600, Smartlink — all six replaced from empty placeholders to active Adsterra placement codes.
 - Verification: Local `npm run verify` chain run after the change.
+
+### 2026-09-02 - Chapter 4 Minotaur Room puzzle walkthrough and 37-trophy roadmap
+
+- Task: Add Chapter 4 'From Hell It Rose' Minotaur Room three-pair reflector solution to the walkthrough page and replace the launch-window placeholder on the trophy page with the full 37-trophy PS5 / 36-achievement Xbox-PC roadmap including the four Gold collectibles and the only confirmed missable.
+- Files changed: `src/data/pages/resonance-pages.ts` (new source-link constants, walkthrough modules for Chapter 4 arena / Step 1 / Step 2 / Light Reveal ring scan / Step 3 / Sphere insertion / soldier ambush / common mistakes; trophy modules for tier breakdown / Xbox-PC equivalent / Platinum / Gold collectibles / missable Like a Warrior / missable-adjacent traps / exploration trophies / chapter-completion Bronzes / combat trophies / creature trophies / remaining Bronzes), `src/data/faq.ts` (five new FAQ entries: `fixed-walkthrough-ch4-minotaur-room`, `fixed-walkthrough-ch4-light-reveal`, `fixed-walkthrough-ch4-ambush`, `fixed-trophy-achievements-like-a-warrior`, `fixed-trophy-achievements-theatre-enthusiast`), `GROWTH_LOG.md`.
+- URLs affected: `/walkthrough`, `/trophy-achievements`. URL paths and responsibilities unchanged.
+- Source cluster: allthings.how, Dot Esports, Game Rant (Chapter 4 + trophy guide), GamerSocialClub (2026-08-11 list and 2026-08-26 100% guide), GamingProMax (Minotaur Room + puppet show), NoobFeed, IGN (Achievements and Trophy List + Chapter 4 walkthrough), RetroGems, SportsRant (All 36 Achievements).
+- Fact boundary: Trophy tier counts, missable flag, and combat / creature trophy lists come from launch-week guides and may be updated by official PlayStation, Xbox, and Steam databases once they stabilize. A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) trophy counts are not used as current-game facts.
+- Verification: Local `npm run verify` chain to be run after the change.

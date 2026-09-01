@@ -475,6 +475,26 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+  {
+    id: "fixed-trophy-achievements-like-a-warrior",
+    question: "Why is 'Like a Warrior' the only confirmed missable Resonance: A Plague Tale Legacy trophy?",
+    answer:
+      "'Like a Warrior' unlocks when Sophia collects 165 Resonance Points within a single save file, and Resonance Points do not transfer via Chapter Select. A player who skips Resonance Point pickups in an early chapter and tries to top up later via Chapter Select will not see the cumulative total carry over, which soft-locks the trophy. Clear the campaign once on Story while sweeping every visible Resonance Point pickup, or start a second playthrough from a fresh save and pick up every Resonance Point in chapter order.",
+    pageIds: ["fixed-trophy-achievements-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-trophy-achievements-theatre-enthusiast",
+    question: "How do I unlock the 'Theatre Enthusiast' Resonance: A Plague Tale Legacy trophy?",
+    answer:
+      "'Theatre Enthusiast' is a Silver exploration trophy that unlocks after watching the full Chapter 2 puppet show carnival sequence without skipping the optional cutscene. Skipping the puppet show during the chapter blocks the trophy, and Chapter Select cannot revisit the encounter to re-trigger it, which makes it the most common missable-adjacent trap on the list alongside 'Sea You Later'.",
+    pageIds: ["fixed-trophy-achievements-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 
   // --- gameplay-explained ------------------------------------------------
   {
@@ -730,6 +750,36 @@ export const faqItems: FAQItem[] = [
     question: "Can I change difficulty mid-run?",
     answer:
       "Yes. The walkthrough confirms difficulty can be changed from the menu, which lets players step down for tough Macula's legacy boss encounters or step up for puzzle timing practice.",
+    pageIds: ["fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-walkthrough-ch4-minotaur-room",
+    question: "How do I solve the Chapter 4 Minotaur Room symbols puzzle?",
+    answer:
+      "In Chapter 4 'From Hell It Rose', Sophia enters the Minotaur Room and walks the arena perimeter to auto-fill her journal with the symbol layout. Step 1 aims the left reflector at the T symbol and the right reflector at the bell. Step 2 finds the worn blank tablet between the reverse-3 and cone symbols and aims the left reflector at the triangle and the right reflector at the blank. Step 3 first uses Light Reveal on each ring on the raised Minotaur statue hands to reveal the hidden third symbol pair (an upside-down Y on the left and a W on the right), then pulls the right reflector toward the middle, aims the middle reflector at the W, and aims the left reflector at the upside-down Y to complete the third pair.",
+    pageIds: ["fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-walkthrough-ch4-light-reveal",
+    question: "Why do I need to scan the Minotaur statue hands with Light Reveal in Chapter 4?",
+    answer:
+      "The Light Reveal scan on each ring of the raised Minotaur statue hands is what reveals the hidden third symbol pair on the arena wall: an upside-down Y on the left side and a W symbol on the right side. Skipping the ring scan leaves the third pair invisible, so the center reflector in Step 3 looks like it is bouncing into empty panels and the puzzle soft-locks. Launch-week walkthroughs flag skipping the ring scan as the most common cause of a soft-locked Chapter 4 puzzle.",
+    pageIds: ["fixed-walkthrough-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-walkthrough-ch4-ambush",
+    question: "What happens after the Chapter 4 Minotaur Room sphere insertion?",
+    answer:
+      "After Sophia inserts the Minoan Sphere, the post-puzzle cutscene unlocks the 'From Hell It Rose' chapter trophy and a single Resonance Point reward. A soldier ambush then triggers in the corridor leading out of the arena; the ambush is led by an armored brute supported by two or three regular soldiers. Perfect-parrying the brute's opening overhead swing unlocks Sophia's stagger-window combat ability against armored enemies, which she carries into the rest of the chapter.",
     pageIds: ["fixed-walkthrough-en-us"],
     category: "gameplay",
     schemaEligible: true,

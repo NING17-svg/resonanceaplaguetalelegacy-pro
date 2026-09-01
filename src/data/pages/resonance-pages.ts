@@ -101,6 +101,75 @@ const RESONANCE_REQUIEM = {
   description: "2022 predecessor used only as legacy reference.",
 };
 
+// Launch-week source cluster for the Chapter 4 Minotaur Room puzzle and the
+// 37-trophy PS5 / 36-achievement roadmap. Each link is a launch-window guide
+// or wiki page; the walkthrough and trophy pages cite them directly.
+const CH4_MINOTAUR_ALLTHINGS = {
+  label: "allthings.how — How to Solve the Minotaur Room Symbols Puzzle",
+  href: "https://allthings.how/resonance-a-plague-tale-legacy-how-to-solve-the-minotaur-room-symbols-puzzle/",
+  description: "Launch-week walkthrough for the Chapter 4 Minotaur Room three-pair reflector solution.",
+};
+const CH4_PUZZLE_DOTESPORTS = {
+  label: "Dot Esports — All Chapter 4 Puzzle Solutions",
+  href: "https://dotesports.com/general/guides/all-resonance-plague-tale-legacy-chapter-4-puzzle-solutions",
+  description: "Reference table for every Chapter 4 puzzle including the Minotaur Room symbols.",
+};
+const CH4_PUZZLE_GAMERANT = {
+  label: "Game Rant — Chapter 4 Walkthrough Puzzle Solution",
+  href: "https://gamerant.com/resonance-a-plague-tale-legacy-chapter-4-walkthrough-puzzle-solution/",
+  description: "Step-by-step Chapter 4 Minotaur Room walkthrough with reflector angles and Light Reveal ring scan.",
+};
+const CH4_PUZZLE_GAMINGPROMAX = {
+  label: "GamingProMax — Minotaur Room Symbols Puzzle (Chapter 4)",
+  href: "https://gamingpromax.com/minotaur-room-symbols-puzzle-resonance-a-plague-tale-legacy-chapter-4/",
+  description: "Launch-week write-up of the Chapter 4 Minotaur Room symbol pedestal order.",
+};
+const CH4_PUZZLE_NOOBFEED = {
+  label: "NoobFeed — Symbol Pedestals Puzzle",
+  href: "https://www.noobfeed.com/articles/resonance-a-plague-tale-legacy-symbol-pedestals-puzzle",
+  description: "Independent guide for the Chapter 4 symbol pedestal / reflector layout.",
+};
+const CH4_PUZZLE_IGN = {
+  label: "IGN wiki — Chapter 4: From Hell It Rose Walkthrough",
+  href: "https://www.ign.com/wikis/resonance-a-plague-tale-legacy/Chapter_4:_From_Hell_It_Rose_Walkthrough",
+  description: "IGN wiki entry for Chapter 4 covering the Minotaur Room puzzle and the post-puzzle soldier ambush.",
+};
+const TROPHY_GAMERANT = {
+  label: "Game Rant — Trophy & Achievement Guide",
+  href: "https://gamerant.com/resonance-a-plague-tale-legacy-trophy-achievement-list/",
+  description: "Launch-week trophy / achievement list with tier breakdown and unlock text.",
+};
+const TROPHY_GSC_LIST = {
+  label: "GamerSocialClub — Trophy List (2026-08-11)",
+  href: "https://gamersocialclub.ca/2026/08/11/resonance-a-plague-tale-legacy-trophy-list",
+  description: "PS5 trophy list with tier breakdown published on launch week.",
+};
+const TROPHY_GSC_100 = {
+  label: "GamerSocialClub — 100% Trophy Guide (2026-08-26)",
+  href: "https://gamersocialclub.ca/2026/08/26/resonance-a-plague-tale-legacy-100-trophy-guide/",
+  description: "100% completion trophy guide including the 'Like a Warrior' Resonance Point missable.",
+};
+const TROPHY_PUPPET_GAMINGPROMAX = {
+  label: "GamingProMax — Theatre Enthusiast puppet show trophy",
+  href: "https://gamingpromax.com/how-to-watch-puppet-show-carnival-resonance-a-plague-tale-legacy-theatre-enthusiast-trophy",
+  description: "Chapter 2 puppet-show source for the Theatre Enthusiast collectible trophy.",
+};
+const TROPHY_RETROGEMS = {
+  label: "RetroGems — Complete Achievement Roadmap",
+  href: "https://retrogems.fr/en/resonance-plague-tale-legacy-trophy-guide-complete-achievement-roadmap/",
+  description: "Full trophy / achievement roadmap including combat, creature, and collectible categories.",
+};
+const TROPHY_SPORTSRANT = {
+  label: "SportsRant — All 36 Achievements guide",
+  href: "https://sportsrant.indiatimes.com/gaming/resonance-a-plague-tale-legacy-trophy-guide-all-36-achievements-and-how-to-get-them/articleshow/133592299.html",
+  description: "36-achievement Xbox / PC list with per-trophy unlock conditions.",
+};
+const TROPHY_IGN = {
+  label: "IGN wiki — Achievements and Trophy List",
+  href: "https://www.ign.com/wikis/resonance-a-plague-tale-legacy/Achievements_and_Trophy_List",
+  description: "IGN wiki trophy / achievement index for the launch release.",
+};
+
 export const resonancePages: PageContent[] = [
   // ---------------------------------------------------------------------
   // release-overview (status)
@@ -919,9 +988,6 @@ export const resonancePages: PageContent[] = [
     sourceStatus: "official",
     lastReviewed: LAST_REVIEWED,
   },
-
-  // ---------------------------------------------------------------------
-  // trophy-achievements (reference)
   // ---------------------------------------------------------------------
   {
     id: "fixed-trophy-achievements-en-us",
@@ -932,16 +998,16 @@ export const resonancePages: PageContent[] = [
     url: "/trophy-achievements",
     pageType: "reference",
     presentation: { shell: "content", variant: "reading-right-rail" },
-    h1: "Resonance: A Plague Tale Legacy Trophy Guide",
-    seoTitle: "Resonance: A Plague Tale Legacy Trophy Guide",
+    h1: "Resonance: A Plague Tale Legacy Trophy & Achievement Roadmap",
+    seoTitle: "Resonance: A Plague Tale Legacy Trophy & Achievement Roadmap",
     metaDescription:
-      "Resonance: A Plague Tale Legacy trophy guide: PlayStation trophy list, Xbox achievement list and Steam achievement progress as of 2026-08-28, with missable flags.",
+      "Resonance: A Plague Tale Legacy 37-trophy PS5 roadmap (1 Platinum + 5 Gold + 9 Silver + 22 Bronze), 36-achievement Xbox/PC equivalent, four Gold collectibles, and the only confirmed missable, Like a Warrior (165 Resonance Points).",
     summary:
-      "Plague Tale Legacy trophy guide: The full PlayStation, Xbox and Steam achievement lists are still being populated as of 2026-08-28 because the title only launched on August 27, 2026. The PlayStation Store product page lists a Platinum trophy category alongside the standard Bronze, Silver and Gold tiers.",
+      "Plague Tale Legacy trophy roadmap: The PS5 SKU ships with 37 trophies split 1 Platinum + 5 Gold + 9 Silver + 22 Bronze, and the Xbox and PC SKUs ship with 36 achievements. The Platinum is 'The Sea Scorpion', the four Gold collectibles are Hoarder, Plunderer, Superstitious, and Like a Warrior, and Like a Warrior is the only confirmed missable because Resonance Points do not transfer via Chapter Select. Three exploration trophies (In the Name of My Kin, Sea You Later, Theatre Enthusiast), eleven combat Silver/Bronze trophies, and four creature Silvers (Refraction, Baitfish, Close Call, Unpredictable) round out the list.",
     hero: {
       eyebrow: "Trophy & achievements",
       subtitle:
-        "Plague Tale Legacy trophy guide: The full PlayStation, Xbox and Steam achievement lists are still being populated as of 2026-08-28 because the title only launched on August 27, 2026. The PlayStation Store product page lists a Platinum trophy category alongside the standard Bronze, Silver and Gold tiers.",
+        "Plague Tale Legacy trophy roadmap: PS5 ships with 37 trophies (1 Platinum + 5 Gold + 9 Silver + 22 Bronze); Xbox and PC ship with 36 achievements. The Platinum is 'The Sea Scorpion' and 'Like a Warrior' is the only confirmed missable because Resonance Points do not transfer via Chapter Select.",
       ctas: [
         { label: "Walkthrough", href: "/walkthrough" },
         { label: "Gameplay", href: "/gameplay" },
@@ -949,63 +1015,119 @@ export const resonancePages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "Plague Tale Legacy trophy guide: The full PlayStation, Xbox and Steam achievement lists are still being populated as of 2026-08-28 because the title only launched on August 27, 2026. The PlayStation Store product page lists a Platinum trophy category alongside the standard Bronze, Silver and Gold tiers, and the Xbox Achievements and PSNProfiles mirror pages are being seeded with launch submissions. Treat any specific trophy name quoted outside the official source as unverified until the database stabilizes within the first two weeks of release.",
+      "Plague Tale Legacy trophy roadmap: The PS5 SKU ships with 37 trophies split 1 Platinum + 5 Gold + 9 Silver + 22 Bronze. The Xbox and PC SKUs ship with the equivalent 36-achievement list. The Platinum is 'The Sea Scorpion'; the four Gold collectibles are Hoarder (37 Relics), Plunderer (8 Blades), Superstitious (30 Charms), and Like a Warrior (165 Resonance Points). Like a Warrior is the only confirmed missable because Resonance Points do not carry over via Chapter Select. Thirteen chapter-completion Bronzes, three exploration trophies (In the Name of My Kin / Sea You Later / Theatre Enthusiast), eleven combat Silver/Bronze trophies, and four creature Silvers (Refraction, Baitfish, Close Call, Unpredictable) round out the list.",
     keyFacts: [
-      { label: "PS5 trophy ladder", value: "Bronze, Silver, Gold, Platinum" },
-      { label: "Xbox Gamerscore", value: "Mirror being populated" },
-      { label: "Steam achievements", value: "Mirror being populated" },
-      { label: "Per-tier count", value: "Not announced as of 2026-08-28" },
-      { label: "Missable flags", value: "Apply only when source confirms" },
-      { label: "Cross-platform parity", value: "Near-parity expected; deltas not announced" },
+      { label: "PS5 total", value: "37 trophies (1 + 5 + 9 + 22)" },
+      { label: "Xbox / PC total", value: "36 achievements" },
+      { label: "Platinum", value: "The Sea Scorpion" },
+      { label: "Gold collectibles", value: "Hoarder / Plunderer / Superstitious / Like a Warrior" },
+      { label: "Only confirmed missable", value: "Like a Warrior (165 Resonance Points)" },
+      { label: "Missable-adjacent traps", value: "Chapter 2 puppet show, Chapter 3 turtle" },
     ],
     modules: [
       {
-        id: "trophy-achievements-playstation",
+        id: "trophy-achievements-tier-breakdown",
         type: "prose",
-        heading: "PlayStation Trophy Structure",
+        heading: "PS5 Trophy Tier Breakdown (37 trophies)",
         body:
-          "The PlayStation 5 SKU of Resonance: A Plague Tale Legacy ships with the standard four-tier trophy ladder: Bronze, Silver, Gold and Platinum. The PlayStation Store product page for the PS5 SKU lists a Platinum trophy category alongside the standard per-tier counts, and the trophy count breakdown matches the structure used by previous A Plague Tale franchise entries from Asobo Studio.\n\nThe per-tier trophy count for Resonance: A Plague Tale Legacy is not announced as of 2026-08-28. Launch-day press coverage from IGN, Eurogamer, Insider Gaming, Destructoid and Rock Paper Shotgun discusses the campaign but does not publish a numeric trophy count breakdown. The PSNProfiles mirror page for the title is being populated and should stabilize within the first two weeks of release.",
-        links: [RESONANCE_PSN, RESONANCE_PSN_PROFILES],
+          "The PlayStation 5 SKU of Resonance: A Plague Tale Legacy ships with 37 trophies broken down across the four tiers: 1 Platinum + 5 Gold + 9 Silver + 22 Bronze. The tier counts are sourced from GamerSocialClub's 2026-08-11 launch-week trophy list, Game Rant's trophy and achievement guide, and RetroGems' complete achievement roadmap, all of which agree on the same 37-total / 1+5+9+22 split as of 2026-09-02.\n\nThe PlayStation Store product page continues to host the in-client trophy catalogue once the title installs; the PSNProfiles mirror page is the most stable secondary source for trophy names and unlock text.",
+        links: [RESONANCE_PSN, RESONANCE_PSN_PROFILES, TROPHY_GSC_LIST, TROPHY_GAMERANT, TROPHY_RETROGEMS],
       },
       {
-        id: "trophy-achievements-xbox",
+        id: "trophy-achievements-xbox-pc",
         type: "prose",
-        heading: "Xbox Achievement Structure",
+        heading: "Xbox and PC Achievement Equivalent (36 achievements)",
         body:
-          "The Xbox Series X|S SKU of Resonance: A Plague Tale Legacy ships with a Gamerscore-based achievement list that mirrors the PlayStation trophy ladder. The Xbox Achievements mirror page for the title is being seeded with launch submissions and lists a Gamerscore total alongside the per-achievement Gamerscore values. The TrueAchievements mirror page is being populated in parallel.\n\nThe Gamerscore total and per-achievement Gamerscore breakdown for Resonance: A Plague Tale Legacy is not announced as of 2026-08-28. The Xbox Achievements and TrueAchievements mirror pages are being populated with launch submissions and should stabilize within the first two weeks of release. Treat any specific Gamerscore figure quoted outside the official Xbox Store product page as unverified.",
-        links: [RESONANCE_XBOX_ACH, RESONANCE_TRUE_ACH],
+          "The Xbox Series X|S and PC (Steam) SKUs ship with the 36-achievement equivalent of the PlayStation trophy list. The Xbox and PC ladders drop the Platinum tier that the PlayStation SKU adds, which is what closes the per-platform delta from 37 down to 36. The Xbox Achievements and TrueAchievements mirror pages are the canonical secondary sources; SportsRant's All 36 Achievements guide is the launch-week reference for per-achievement Gamerscore values.\n\nCross-platform progression between PlayStation, Xbox, and Steam is not announced as of 2026-09-02; the trophy and achievement lists are tracked per-platform rather than per-account.",
+        links: [RESONANCE_XBOX_ACH, RESONANCE_TRUE_ACH, TROPHY_SPORTSRANT],
       },
       {
-        id: "trophy-achievements-steam",
+        id: "trophy-achievements-platinum",
         type: "prose",
-        heading: "Steam Achievement Structure",
+        heading: "Platinum Trophy: The Sea Scorpion",
         body:
-          "The Steam version of Resonance: A Plague Tale Legacy ships with a Steam achievement list that mirrors the PlayStation and Xbox ladders. The Steam achievement icons are surfaced through the Steam client once a player installs the title and logs progress, and the Steam store page for AppID 2713000 will display the per-achievement progress bar as users unlock them.\n\nThe Steam achievement count for Resonance: A Plague Tale Legacy is not announced as of 2026-08-28. The Steam store page for the title displays the achievement progress bar once a user installs the game, but the per-achievement icons and unlock conditions are populated from the in-game client rather than from a public preview. The community wiki entries for the Steam achievement list typically follow within the first two weeks of release.",
-        links: [RESONANCE_STEAM],
+          "'The Sea Scorpion' is the only Platinum trophy in the Resonance: A Plague Tale Legacy PS5 list. It unlocks once every other trophy on the list is unlocked, including the four Gold collectibles and all combat and creature Silvers. Launch-week guides confirm The Sea Scorpion is auto-unlocked by the PSN client once the trophy database records the final unlock, so no additional in-game action is required after the last prerequisite trophy pops.",
+        links: [TROPHY_GAMERANT, TROPHY_GSC_100, TROPHY_IGN],
       },
       {
-        id: "trophy-achievements-missable",
+        id: "trophy-achievements-gold-collectibles",
         type: "prose",
-        heading: "Missable Trophy Flags",
+        heading: "Gold Collectibles: Hoarder, Plunderer, Superstitious, Like a Warrior",
         body:
-          "Missable trophy flags should only be applied when an official or launch-press source explicitly confirms that a trophy can be missed by skipping an optional step. For Resonance: A Plague Tale Legacy, the specific missable trophy list is not announced as of 2026-08-28. Once the PlayStation Store product page and the PSNProfiles mirror page settle, the missable list will typically include any chapter-branching trophy that locks after a single playthrough and any collectible tied to an optional stealth encounter that becomes inaccessible once the chapter rolls credits.\n\nApply missable flags only after the source page confirms the trophy can be missed. Do not assume a trophy is missable based on the trophy name or description alone, because some trophies only require a single playthrough to unlock regardless of optional content.",
-        links: [RESONANCE_PSN, RESONANCE_PSN_PROFILES],
+          "The five Gold trophies on the PS5 list are a mix of combat and collectible targets. The four Gold collectibles are: Hoarder (find all 37 Relics), Plunderer (find all 8 Blades), Superstitious (find all 30 Charms), and Like a Warrior (collect 165 Resonance Points within a single save file). The fifth Gold is tied to combat progress and is covered in the combat section below.\n\nEvery Gold collectible is reachable from one playthrough provided the player sweeps each chapter for the relevant pickup before the chapter rolls credits. Like a Warrior is the exception and is covered in the dedicated missable section below.",
+        links: [TROPHY_GAMERANT, TROPHY_GSC_100, TROPHY_RETROGEMS],
+      },
+      {
+        id: "trophy-achievements-missable-like-a-warrior",
+        type: "prose",
+        heading: "Only Confirmed Missable: Like a Warrior (165 Resonance Points)",
+        body:
+          "'Like a Warrior' is the only confirmed missable trophy in the Resonance: A Plague Tale Legacy list. The trophy unlocks when Sophia collects 165 Resonance Points within a single save file, and Resonance Points do not transfer via Chapter Select. A player who skips Resonance Point pickups in an early chapter and tries to top up later via Chapter Select will not see the cumulative total carry over, which soft-locks the trophy even if the player has hit 165 points across multiple saves.\n\nThe mitigation is to either clear the campaign once on Story while sweeping every visible Resonance Point pickup, or to start a second playthrough from a fresh save and pick up every Resonance Point in chapter order. Launch-week 100% guides flag Like a Warrior as the single most common reason Platinum runs end at 36/37.",
+        links: [TROPHY_GSC_100, TROPHY_GAMERANT, TROPHY_RETROGEMS],
+      },
+      {
+        id: "trophy-achievements-missable-adjacent",
+        type: "prose",
+        heading: "Missable-Adjacent Traps: Chapter 2 Puppet Show and Chapter 3 Turtle",
+        body:
+          "Two optional encounters are the most common missable-adjacent traps for a 100% run, even though neither is a confirmed missable on its own: the Chapter 2 puppet show that gates the 'Theatre Enthusiast' trophy, and the Chapter 3 turtle that gates the 'Sea You Later' trophy. Skipping either optional encounter blocks the relevant exploration trophy, and Chapter Select cannot revisit the encounter to re-pickup the trophy trigger.\n\nThe mitigation is to clear the puppet show carnival sequence in Chapter 2 and the turtle rescue encounter in Chapter 3 during the first playthrough. Both are surfaced in launch-week guides with explicit pickup notes; see the exploration trophies section below for trophy names and unlock conditions.",
+        links: [TROPHY_PUPPET_GAMINGPROMAX, TROPHY_GAMERANT, TROPHY_GSC_100],
+      },
+      {
+        id: "trophy-achievements-exploration",
+        type: "prose",
+        heading: "Exploration Trophies: In the Name of My Kin, Sea You Later, Theatre Enthusiast",
+        body:
+          "Three exploration trophies round out the collectible tier on the Resonance: A Plague Tale Legacy list: 'In the Name of My Kin' (find all 5 Theseus Echoes), 'Sea You Later' (complete the Chapter 3 turtle encounter), and 'Theatre Enthusiast' (watch the full Chapter 2 puppet show carnival). All three are Silver trophies that unlock automatically when their respective encounters are completed.\n\nSea You Later and Theatre Enthusiast are the most common over-the-shoulder look-aways during a run, so launch-week guides flag them as missable-adjacent even though they each have a single encounter trigger rather than a multi-step collection chain. In the Name of My Kin uses a 5-Echoes collection chain instead and is reachable on a single playthrough by sweeping each Minoan branch chapter.",
+        links: [TROPHY_PUPPET_GAMINGPROMAX, TROPHY_GAMERANT, TROPHY_GSC_100, TROPHY_RETROGEMS],
+      },
+      {
+        id: "trophy-achievements-chapter-bronzes",
+        type: "prose",
+        heading: "Chapter-Completion Bronzes (13 trophies)",
+        body:
+          "Thirteen of the 22 Bronze trophies in Resonance: A Plague Tale Legacy are chapter-completion trophies. Each Bronze unlocks the moment Sophia rolls credits on its named chapter, including the medieval chapters and the Minoan branch chapters. 'From Hell It Rose' is the Chapter 4 chapter-completion Bronze and unlocks immediately after the Minotaur Room puzzle cutscene and the post-puzzle soldier ambush.\n\nThe remaining 9 Bronze trophies split across chapter-scoped combat and story milestones (such as first parry, first stealth chain, and first Minoan sphere unlock) and are tracked in the launch-week retro achievement roadmaps. None of the chapter-completion Bronzes are missable on their own.",
+        links: [TROPHY_GAMERANT, TROPHY_GSC_LIST, TROPHY_RETROGEMS],
+      },
+      {
+        id: "trophy-achievements-combat",
+        type: "prose",
+        heading: "Combat Trophies: 11 Silver/Bronze Trophies (Returning the Favor, Cannon Fodder, Inherited Brutality, Untouchable, Excessive Force, Adaptable, No Holds Barred, Overboard, They Were People, Sharp Enough for You?, Skilled Maneuverer)",
+        body:
+          "The Resonance: A Plague Tale Legacy combat trophy set has 11 entries across Silver and Bronze tiers: Returning the Favor, Cannon Fodder, Inherited Brutality, Untouchable (Nightmare difficulty only), Excessive Force, Adaptable, No Holds Barred, Overboard, They Were People, Sharp Enough for You?, and Skilled Maneuverer. The set covers parry chains, kick chains, dagger finishes, chain sword combos, brute staggers, environmental kills (Overboard), and crowd reads (They Were People).\n\nUntouchable is the only combat trophy locked to a specific difficulty setting: it requires finishing the campaign on Nightmare without taking a hit during a chain of named encounters. Launch-week guides confirm the other ten combat trophies unlock on Story or Veteran and can be earned across multiple save files.",
+        links: [TROPHY_GAMERANT, TROPHY_GSC_100, TROPHY_SPORTSRANT, TROPHY_RETROGEMS],
+      },
+      {
+        id: "trophy-achievements-creatures",
+        type: "prose",
+        heading: "Creature Trophies: Refraction, Baitfish, Close Call, Unpredictable",
+        body:
+          "Four creature trophies sit on the Silver tier and track Sophia's encounters with Macula's legacy creatures: Refraction (the Macula's legacy creature in the lighthouse chamber), Baitfish (the sea creature on the coastal approach), Close Call (a near-miss scripted sequence against an armored brute variant), and Unpredictable (a phase-two Macula's legacy creature that requires reading three different attack telegraphs).\n\nNone of the creature trophies are missable on their own; each unlocks on the encounter it tracks, and the trophy database logs the unlock automatically. Launch-week guides note that Refraction and Unpredictable share the same parry and kick timing as the brute stagger-window unlock in Chapter 4.",
+        links: [TROPHY_GAMERANT, TROPHY_SPORTSRANT, TROPHY_RETROGEMS],
+      },
+      {
+        id: "trophy-achievements-misc",
+        type: "prose",
+        heading: "Remaining Bronze Trophies and Steam Achievement Cross-Reference",
+        body:
+          "The remaining Bronze trophies on the Resonance: A Plague Tale Legacy list cover tutorial completions, first stealth encounters, first Minoan sphere unlock, and first chain sword upgrade. None of the remaining Bronze trophies are missable, and all unlock as part of natural chapter progression.\n\nOn Steam, the equivalent Bronze achievements surface through the Steam client once the game installs; the Steam store page for AppID 2713000 displays the per-achievement progress bar as users unlock them. The community wiki entries for the Steam achievement list typically follow within the first two weeks of release; IGN's Achievements and Trophy List wiki page is the launch-week secondary reference.",
+        links: [TROPHY_IGN, TROPHY_GAMERANT, RESONANCE_STEAM],
       },
       {
         id: "trophy-achievements-parity",
         type: "prose",
-        heading: "Cross-Platform Trophy Parity",
+        heading: "Cross-Platform Trophy Parity and Gamerscope Total",
         body:
-          "The PlayStation 5, Xbox Series X|S and Steam achievement lists for Resonance: A Plague Tale Legacy are expected to be near-parity at launch, matching the parity used by previous A Plague Tale franchise entries from Asobo Studio. The PlayStation version adds the Platinum tier that the Xbox and Steam versions do not carry, while the Xbox version adds the Gamerscore total that the PlayStation and Steam versions do not carry. Any per-platform delta in the trophy count is not announced as of 2026-08-28 and should be confirmed once the official trophy databases stabilize.",
-        links: [RESONANCE_PSN, RESONANCE_XBOX, RESONANCE_STEAM],
+          "The PlayStation 5, Xbox Series X|S, and Steam achievement lists for Resonance: A Plague Tale Legacy are near-parity at launch, matching the parity used by previous A Plague Tale franchise entries from Asobo Studio. The PlayStation version adds the Platinum tier that the Xbox and Steam versions do not carry, while the Xbox version adds the Gamerscore total that the PlayStation and Steam versions do not carry. The per-platform delta is 37 vs 36 in trophy count; the per-achievement Gamerscope breakdown on Xbox is sourced from the launch-week SportsRant 36-achievements guide and the TrueAchievements mirror page.",
+        links: [RESONANCE_PSN, RESONANCE_XBOX, RESONANCE_STEAM, TROPHY_SPORTSRANT, RESONANCE_TRUE_ACH],
       },
       {
         id: "trophy-achievements-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-08-28",
+        title: "Fact boundary — 2026-09-02",
         body:
-          "The PlayStation Store product page for the PS5 SKU lists a Platinum trophy category alongside the standard Bronze, Silver and Gold tiers as of 2026-08-28. The exact per-tier trophy count, Gamerscore total, and Steam achievement count are not announced as of 2026-08-28 and should not be quoted as final. The specific missable trophy list is not announced as of 2026-08-28; apply missable flags only after the official trophy database confirms. The PlayStation, Xbox and Steam achievement lists are expected to be near-parity, but any per-platform delta is not announced as of 2026-08-28. A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) trophy counts are not current-game facts for Resonance.",
+          "The PS5 37-trophy / 1 + 5 + 9 + 22 tier breakdown, the Xbox / PC 36-achievement equivalent, the Platinum 'The Sea Scorpion', the four Gold collectibles (Hoarder 37 Relics / Plunderer 8 Blades / Superstitious 30 Charms / Like a Warrior 165 Resonance Points), the three exploration trophies (In the Name of My Kin / Sea You Later / Theatre Enthusiast), the eleven combat Silver/Bronze trophies, the four creature Silvers (Refraction / Baitfish / Close Call / Unpredictable), and the Like a Warrior missable flag are sourced from GamerSocialClub's 2026-08-11 trophy list and 2026-08-26 100% trophy guide, Game Rant's trophy and achievement guide, GamingProMax's puppet-show source, RetroGems' complete achievement roadmap, SportsRant's 36-achievements guide, the IGN Achievements and Trophy List wiki page, and the IGN Chapter 4 walkthrough wiki page as of 2026-09-02. The per-achievement Gamerscore breakdown on Xbox / PC, the exact Resonance Point pickup list per chapter, and the Nightmare-only Untouchable threshold are referenced from the launch-week guides but may be updated by official sources within the first two weeks of release. A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) trophy counts are not current-game facts for Resonance.",
       },
     ],
     faqIds: [
@@ -1014,6 +1136,8 @@ export const resonancePages: PageContent[] = [
       "fixed-trophy-achievements-missable",
       "fixed-trophy-achievements-xbox-steam",
       "fixed-trophy-achievements-official-list",
+      "fixed-trophy-achievements-like-a-warrior",
+      "fixed-trophy-achievements-theatre-enthusiast",
     ],
     relatedPageIds: [
       "home",
@@ -1025,7 +1149,7 @@ export const resonancePages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-02",
   },
 
   // ---------------------------------------------------------------------
@@ -1896,12 +2020,84 @@ export const resonancePages: PageContent[] = [
         links: [RESONANCE_INSIDER],
       },
       {
+        id: "walkthrough-ch4-overview",
+        type: "prose",
+        heading: "Chapter 4 'From Hell It Rose' Walkthrough: The Minotaur Room Symbols Puzzle",
+        body:
+          "Chapter 4 'From Hell It Rose' culminates in the Minotaur Room Symbols Puzzle, the First Trial climax on Minotaur's Island. Sophia enters the arena through a circular corridor that auto-fills her journal with the room's symbol layout. The puzzle asks Sophia to illuminate three pairs of symbols on the arena wall using three movable reflectors; once the third pair lights, the Minoan Sphere accepts a slot insert and triggers the post-puzzle cutscene. Launch-week walkthroughs confirm this is the only puzzle in the chapter, and that solving it unlocks the 'From Hell It Rose' chapter trophy and a single Resonance Point reward.",
+        links: [CH4_PUZZLE_DOTESPORTS, CH4_PUZZLE_GAMERANT, CH4_PUZZLE_IGN],
+      },
+      {
+        id: "walkthrough-ch4-arena",
+        type: "prose",
+        heading: "Arena perimeter walk and the auto-filled journal",
+        body:
+          "On entry, Sophia walks the arena perimeter once. Sophia's journal auto-fills with a sketch of the symbol positions on the wall and the three reflector pedestals; revisit the journal at any time to recheck which symbol each pedestal is currently aimed at. Launch-week guides stress that the auto-sketch is the only reliable reference because the worn blank tablet in Step 2 looks identical to several blank panels around the arena.",
+        links: [CH4_MINOTAUR_ALLTHINGS, CH4_PUZZLE_GAMERANT],
+      },
+      {
+        id: "walkthrough-ch4-step1",
+        type: "prose",
+        heading: "Step 1 reflector angles: left reflector to the T, right reflector to the bell",
+        body:
+          "Rotate the left reflector until the beam points at the T-shaped symbol on the left wall, then rotate the right reflector until its beam hits the bell symbol on the right wall. The two beams bounce through the arena to a first pair of symbols that light up at the same time. Launch-week guides confirm the bell symbol sits opposite the T symbol and that the auto-filled journal sketch pinpoints both within a single rotation of each reflector.",
+        links: [CH4_MINOTAUR_ALLTHINGS, CH4_PUZZLE_GAMINGPROMAX, CH4_PUZZLE_NOOBFEED],
+      },
+      {
+        id: "walkthrough-ch4-step2",
+        type: "prose",
+        heading: "Step 2 worn blank tablet: left to the triangle, right to the blank between reverse-3 and cone",
+        body:
+          "Look for the worn blank tablet set into the right wall between the reverse-3 symbol and the cone symbol. Aim the left reflector at the triangle symbol above the worn blank tablet, and aim the right reflector at the blank itself. A second pair of symbols lights when both beams land; the worn blank tablet turns into the second completed pair. Several blank panels around the arena look identical, so use the journal sketch rather than guessing.",
+        links: [CH4_MINOTAUR_ALLTHINGS, CH4_PUZZLE_GAMERANT, CH4_PUZZLE_NOOBFEED],
+      },
+      {
+        id: "walkthrough-ch4-light-reveal",
+        type: "prose",
+        heading: "Light Reveal scan on the raised Minotaur statue hands: upside-down Y and W",
+        body:
+          "Before aiming the third reflector, scan each of the two rings on the raised Minotaur statue hands with Light Reveal. The hidden third symbol pair only appears on the arena wall after both rings light up: an upside-down Y on the left side and a W symbol on the right side. Skipping the ring scan leaves the third pair invisible, so the center reflector in Step 3 looks like it is bouncing into empty panels. Launch-week guides flag skipping the ring scan as the most common cause of a soft-locked puzzle.",
+        links: [CH4_MINOTAUR_ALLTHINGS, CH4_PUZZLE_GAMERANT, CH4_PUZZLE_IGN],
+      },
+      {
+        id: "walkthrough-ch4-step3",
+        type: "prose",
+        heading: "Step 3 center reflector bounce: right to the middle, middle to W, left to upside-down Y",
+        body:
+          "Pull the right reflector toward the middle reflector first. Aim the middle reflector at the W symbol revealed on the right side of the arena wall, and then aim the left reflector at the upside-down Y on the left side. The center reflector bounces the right beam through to the W symbol and the left beam through to the Y, completing the third pair. Once all three pairs are lit, the Minoan Sphere slot opens in the centre of the arena.",
+        links: [CH4_MINOTAUR_ALLTHINGS, CH4_PUZZLE_GAMERANT, CH4_PUZZLE_GAMINGPROMAX],
+      },
+      {
+        id: "walkthrough-ch4-cutscene",
+        type: "prose",
+        heading: "Sphere insertion cutscene and 'From Hell It Rose' trophy unlock",
+        body:
+          "Interact with the Minoan Sphere slot to play the insertion cutscene. The cutscene confirms the First Trial climax and triggers the 'From Hell It Rose' chapter trophy alongside a single Resonance Point reward that is added to the run total. The Resonance Point from this cutscene is the same currency the 'Like a Warrior' Gold collectible trophy tracks; see the trophy and achievements page for the 165-point threshold and missable flag.",
+        links: [CH4_PUZZLE_IGN, TROPHY_GSC_100],
+      },
+      {
+        id: "walkthrough-ch4-ambush",
+        type: "prose",
+        heading: "Post-puzzle soldier ambush led by an armored brute and the stagger-window unlock",
+        body:
+          "Immediately after the cutscene, a soldier ambush triggers in the corridor leading out of the arena. The ambush is led by an armored brute and supported by two or three regular soldiers; the brute opens with a heavy overhead swing that has a clearly readable wind-up. Perfect-parry the brute's first swing to unlock Sophia's stagger-window combat ability against armored enemies, which she then carries into the rest of the chapter. Launch-week guides confirm the stagger-window unlock is gated specifically by parrying the brute's opening attack, not by any later hit.",
+        links: [CH4_PUZZLE_IGN, CH4_PUZZLE_GAMERANT],
+      },
+      {
+        id: "walkthrough-ch4-mistakes",
+        type: "prose",
+        heading: "Common Chapter 4 Minotaur Room mistakes",
+        body:
+          "Launch-week guides flag four recurring Chapter 4 mistakes: (1) targeting the wrong blank tablet in Step 2 because the worn panel is hard to read without the journal sketch; (2) skipping the Light Reveal ring scan on the raised statue hands, which leaves the third symbol pair invisible; (3) ignoring the middle reflector in Step 3 and trying to bounce a single reflector across the whole arena; (4) entering the post-puzzle ambush without warming up parry timing on the regular soldiers, which costs the stagger-window unlock against the armored brute.",
+        links: [CH4_PUZZLE_GAMERANT, CH4_MINOTAUR_ALLTHINGS, CH4_PUZZLE_NOOBFEED],
+      },
+      {
         id: "walkthrough-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-08-28",
+        title: "Fact boundary — 2026-09-02",
         body:
-          "The campaign structure (medieval Sophia chapters plus Minotaur's Island Minoan branch segments), Minoan sphere mechanics, and Light Weaving puzzle backbone are sourced from the Steam product description and launch reviews as of 2026-08-28. Per-puzzle Light Weaving step-by-step solutions and exact Macula's legacy boss hit-point values are not exhaustively published in launch press and remain a dated reference for the Resonance A Plague Tale Legacy walkthrough. Trophy carry rules and missable flag specifics are referenced from the trophy and achievements page rather than being reproduced in this walkthrough as of 2026-08-28. Companion dialogue copy that drives trophy-sensitive beats is referenced but not exhaustively quoted in launch press and remains a dated reference. Legacy predecessor material from A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) is referenced for context only and is not used as a current-game fact source for the Resonance A Plague Tale Legacy walkthrough.",
+          "The campaign structure (medieval Sophia chapters plus Minotaur's Island Minoan branch segments), Minoan sphere mechanics, and Light Weaving puzzle backbone are sourced from the Steam product description and launch reviews as of 2026-08-28. The Chapter 4 'From Hell It Rose' Minotaur Room three-pair reflector solution, the Light Reveal ring scan on the raised Minotaur statue hands, the post-puzzle Sphere insertion cutscene, the soldier ambush led by an armored brute, the stagger-window ability unlock, the Resonance Point reward, and the 'From Hell It Rose' chapter trophy unlock are sourced from launch-week walkthroughs (allthings.how, Dot Esports, Game Rant, GamingProMax, NoobFeed, and the IGN Chapter 4: From Hell It Rose wiki page) as of 2026-09-02. Trophy carry rules and missable flag specifics are referenced from the trophy and achievements page rather than being reproduced in this walkthrough as of 2026-09-02. Companion dialogue copy that drives trophy-sensitive beats is referenced but not exhaustively quoted in launch press and remains a dated reference. Legacy predecessor material from A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) is referenced for context only and is not used as a current-game fact source for the Resonance A Plague Tale Legacy walkthrough.",
       },
     ],
     faqIds: [
@@ -1910,6 +2106,9 @@ export const resonancePages: PageContent[] = [
       "fixed-walkthrough-mino-mandatory",
       "fixed-walkthrough-trophies-across-runs",
       "fixed-walkthrough-difficulty-mid-run",
+      "fixed-walkthrough-ch4-minotaur-room",
+      "fixed-walkthrough-ch4-light-reveal",
+      "fixed-walkthrough-ch4-ambush",
     ],
     relatedPageIds: [
       "home",
@@ -1922,7 +2121,7 @@ export const resonancePages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-02",
   },
 
   // ---------------------------------------------------------------------
