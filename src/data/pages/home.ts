@@ -53,6 +53,7 @@ export const homePage: PageContent = {
       { label: "Release overview", href: "/release" },
       { label: "Game Pass day one", href: "/xbox-game-pass" },
       { label: "Walkthrough", href: "/walkthrough" },
+      { label: "Collectibles", href: "/collectibles" },
       { label: "Beginner tips", href: "/tips" },
     ],
   },
@@ -123,11 +124,19 @@ export const homePage: PageContent = {
       links: [RESONANCE_STEAM],
     },
     {
+      id: "home-collectibles",
+      type: "prose",
+      heading: "Collectibles hub: 37 Relics, 8 Blades, 30 Charms, 5 Theseus Echoes",
+      body:
+        "A dedicated collectibles hub lists every Relic of the Present and Past (37), every Blade from Heroes' Graves (8, including the Heritage Pack Minoan Sword), every Charm (30), and every Theseus Echo (5) by chapter. Chapter Select cleanup paths finish the Hoarder / Plunderer / Superstitious Gold trophies, while the Silver In the Name of My Kin is reachable on a single playthrough. The hub cross-links to /trophy-achievements/ and to the Chapter 4 puzzle context on /walkthrough/.",
+      links: [RESONANCE_STEAM],
+    },
+    {
       id: "home-characters",
       type: "prose",
       heading: "Characters and Minotaur mythos",
       body:
-        "Sophia is the new protagonist of Resonance: A Plague Tale Legacy, anchoring a new cast alongside returning characters from the Plague Tale franchise. The Minotaur mythos adds an ancient Minoan layer through Minotaur's Island, Daedalus' labyrinth, and Macula's legacy creatures. Full casts live on /characters/ and /minotaur-mythos/.",
+        "Sophia is the new protagonist of Resonance: A Plague Tale Legacy, anchoring a new cast with named medieval companions Caesar and Lucas, named Minoan antagonists King Minos (Chapter 12 boss), Asterion (Chapter 13 boss and Prima Macula carrier child), and The Presence (unkillable supernatural entity), plus the six Macula legacy creature types (Worm, Brutes, Puppets, Petrified, King Minos, Asterion). Full casts live on /characters/ and /minotaur-mythos/.",
       links: [RESONANCE_STEAM, RESONANCE_FOCUS],
     },
     {
@@ -135,7 +144,7 @@ export const homePage: PageContent = {
       type: "prose",
       heading: "Trophies, achievements and how long to beat",
       body:
-        "Trophy and achievement data is published in line with the PlayStation Store product page, Xbox Achievements and TrueAchievements records. Main story, side content, and completionist runtimes are aggregated from HowLongToBeat and launch press. See /trophy-achievements/ and /how-long-to-beat/ for the full tables.",
+        "Trophy and achievement data is published in line with the PlayStation Store product page, Xbox Achievements and TrueAchievements records. Main story, side content, and completionist runtimes are aggregated from HowLongToBeat and launch press. See /trophy-achievements/, /collectibles/ and /how-long-to-beat/ for the full tables.",
       links: [RESONANCE_PSN, RESONANCE_XBOX],
     },
     {

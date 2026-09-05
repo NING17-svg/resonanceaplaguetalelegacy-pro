@@ -170,6 +170,156 @@ const TROPHY_IGN = {
   description: "IGN wiki trophy / achievement index for the launch release.",
 };
 
+// Launch-week cluster for per-outlet numeric scores, per-platform Metacritic
+// tally, and OpenCritic chart; cited from /reviews and /metacritic modules.
+const REVIEWS_IGN_TRAVIS = {
+  label: "IGN launch review (Travis Northup)",
+  href: "https://www.ign.com/articles/resonance-a-plague-tale-legacy-review",
+  description: "IGN's 6/10 launch verdict by Travis Northup dated 2026-08-27.",
+};
+const REVIEWS_PSU = {
+  label: "PlayStation Universe launch review (95/100)",
+  href: "https://www.psu.com/reviews/resonance-a-plague-tale-legacy-review/",
+  description: "PlayStation Universe launch verdict at the high end of the cluster.",
+};
+const REVIEWS_SIXTHAXIS = {
+  label: "TheSixthAxis launch review (9/10)",
+  href: "https://www.thesixthaxis.com/2026/08/27/resonance-a-plague-tale-legacy-review/",
+  description: "TheSixthAxis launch verdict at the high end of the cluster.",
+};
+const REVIEWS_GAMEINFORMER = {
+  label: "Game Informer launch review (8.5/10)",
+  href: "https://www.gameinformer.com/review/resonance-a-plague-tale-legacy",
+  description: "Game Informer launch verdict dated 2026-08-27.",
+};
+const REVIEWS_PUREXBOX = {
+  label: "Pure Xbox launch review (9/10)",
+  href: "https://www.purexbox.com/reviews/resonance-a-plague-tale-legacy-review",
+  description: "Pure Xbox launch verdict at the high end of the cluster.",
+};
+const REVIEWS_GAMERANT_REVIEW = {
+  label: "Game Rant launch review (7/10)",
+  href: "https://gamerant.com/resonance-a-plague-tale-legacy-review/",
+  description: "Game Rant launch verdict in the mixed cluster.",
+};
+const REVIEWS_OPENCRITIC = {
+  label: "OpenCritic chart for Resonance: A Plague Tale Legacy",
+  href: "https://opencritic.com/game/20803/resonance-a-plague-tale-legacy/charts",
+  description: "OpenCritic critic-score chart and recommended / not-recommended share.",
+};
+const REVIEWS_TECHTIMES = {
+  label: "TechTimes launch review (2026-08-27)",
+  href: "https://www.techtimes.com/articles/325729/20260827/resonance-plague-tale-legacy-earns-80-launch-critics-split-what-was-lost.htm",
+  description: "TechTimes launch coverage citing the ~80 Metacritic and the split reaction.",
+};
+const REVIEWS_NEWSWIRE = {
+  label: "Newswire Games critical reception (2026-08-26)",
+  href: "https://newswire.games/2026/08/26/resonance-a-plague-tale-legacy-critical-reception",
+  description: "Newswire Games roundup of launch critical reception.",
+};
+const REVIEWS_GAMETRADERSG = {
+  label: "GameTrader SG review roundup (2026)",
+  href: "https://www.gametrader.sg/blog/resonance-a-plague-tale-legacy-out-now-review-roundup-2026",
+  description: "GameTrader SG launch-week review roundup.",
+};
+const REVIEWS_GAMESLINK = {
+  label: "GamesLink launch review roundup",
+  href: "https://gameslink.click/resonance-a-plague-tale-legacy-reviews-suggest-it-won-t-be-another-goty-contender-42201.html",
+  description: "GamesLink launch coverage flagging the polarized reception.",
+};
+const REVIEWS_VGTIMES = {
+  label: "VGTimes launch scores roundup",
+  href: "https://vgtimes.com/gaming-news/165594-resonance-a-plague-tale-legacy-launches-with-early-review-scores-in-the-high-70s.html",
+  description: "VGTimes coverage of the launch-week early-review scores.",
+};
+const REVIEWS_INSTANT_GAMING = {
+  label: "Instant Gaming launch review summary",
+  href: "https://news.instant-gaming.com/en/articles/21556-resonance-a-plague-tale-legacy-review-excellent-scores-for-the-latest-entry-in-the-franchise",
+  description: "Instant Gaming launch-week review summary citing the high-end cluster.",
+};
+const REVIEWS_METACRITIC_CRITICS = {
+  label: "Metacritic critic reviews page",
+  href: "https://www.metacritic.com/game/resonance-a-plague-tale-legacy/critic-reviews",
+  description: "Per-outlet critic review list on Metacritic.",
+};
+const REVIEWS_METACRITIC_PRODUCT = {
+  label: "Metacritic product page",
+  href: "https://www.metacritic.com/game/resonance-a-plague-tale-legacy/",
+  description: "Aggregator critic and user scores by platform.",
+};
+
+// Launch-week cluster for named character and boss roster (Asterion, King Minos,
+// The Presence, Caesar, Lucas) and the six Macula legacy creature types.
+const CHARACTERS_GAMINGPROMAX_ASTERION = {
+  label: "GamingProMax — How to Defeat Minotaur Creatures",
+  href: "https://gamingpromax.com/how-to-defeat-minotaur-creatures-resonance-a-plague-tale-legacy/",
+  description: "Guide detailing Asterion's three-phase fight, arena grapnels, and lens rotation.",
+};
+const CHARACTERS_WORLDEKA_ASTERION = {
+  label: "Worldeka — Asterion and King Minos boss fight guide",
+  href: "https://worldeka.com/resonance-a-plague-tale-legacy-asterion-king-minos-boss-guide/",
+  description: "Worldeka guide identifying Asterion as the Prima Macula carrier child and Chapter 12 King Minos.",
+};
+const CHARACTERS_EUROGAMER_CH13 = {
+  label: "Eurogamer Chapter 13 walkthrough",
+  href: "https://www.eurogamer.net/resonance-a-plague-tale-legacy-chapter-13-as-one-walkthrough",
+  description: "Eurogamer walkthrough for Chapter 13 'As One' covering Asterion's arena.",
+};
+const CHARACTERS_IGN_CH13 = {
+  label: "IGN wiki — Chapter 13: As One walkthrough",
+  href: "https://s.ign.com/wikis/resonance-a-plague-tale-legacy/Chapter_13:_As_One_Walkthrough",
+  description: "IGN wiki entry for Chapter 13 'As One' covering the Asterion boss fight.",
+};
+
+// Launch-week cluster for collectible totals by chapter and the four Gold
+// collectible trophies (Hoarder / Plunderer / Superstitious) plus the Silver
+// 'In the Name of My Kin' (5 Theseus Echoes).
+const COLLECT_ALLTHINGS_CH10 = {
+  label: "allthings.how — Chapter 10 Parallel Paths collectibles",
+  href: "https://allthings.how/resonance-a-plague-tale-legacy-chapter-10-collectible-locations-parallel-paths/",
+  description: "allthings.how Chapter 10 Relic, Blade, Charm, and Theseus Echo breakdown.",
+};
+const COLLECT_GAMERPILLAR_CH2 = {
+  label: "Gamerpillar — Chapter 2 all collectibles",
+  href: "https://gamerpillar.com/chapter-2-all-collectibles-resonance-a-plague-tale-legacy",
+  description: "Gamerpillar Chapter 2 collectible coordinates.",
+};
+const COLLECT_GAMERPILLAR_CH4 = {
+  label: "Gamerpillar — all Chapter 4 collectibles",
+  href: "https://gamerpillar.com/all-chapter-4-collectibles-resonance-a-plague-tale-legacy/",
+  description: "Gamerpillar Chapter 4 collectible coordinates.",
+};
+const COLLECT_GAMERANT_ALL = {
+  label: "Game Rant — all chapters collectibles list",
+  href: "https://gamerant.com/resonance-a-plague-tale-legacy-all-chapters-collectibles/",
+  description: "Game Rant per-chapter collectible list across the full campaign.",
+};
+const COLLECT_GAMINGPROMAX_ALL = {
+  label: "GamingProMax — all chapters collectibles",
+  href: "https://gamingpromax.com/resonance-a-plague-tale-legacy-all-chapters-list-collectibles/",
+  description: "GamingProMax per-chapter collectible total table.",
+};
+const COLLECT_POWERPYX_CH6 = {
+  label: "PowerPyx — Chapter 6 What Lies Beneath collectibles",
+  href: "https://www.powerpyx.com/resonance-a-plague-tale-legacy-chapter-6-what-lies-beneath-collectible-locations/",
+  description: "PowerPyx Chapter 6 collectible locations.",
+};
+const COLLECT_ACTUGAMING_RELIQUES = {
+  label: "Actugaming — Relics location guide (French)",
+  href: "https://www.actugaming.net/reliques-resonance-a-plague-tale-legacy-817913",
+  description: "Actugaming per-chapter Relics of the Present and Past location table.",
+};
+const COLLECT_ACTUGAMING_SCEAUX = {
+  label: "Actugaming — Charms location guide (French)",
+  href: "https://www.actugaming.net/sceaux-resonance-a-plague-tale-legacy-817916",
+  description: "Actugaming per-chapter Charms location table.",
+};
+const COLLECT_ACTUGAMING_ARMES = {
+  label: "Actugaming — Weapons location guide (French)",
+  href: "https://www.actugaming.net/guide-armes-resonance-a-plague-tale-legacy-818646/",
+  description: "Actugaming per-chapter Blades from Heroes' Graves location table.",
+};
+
 export const resonancePages: PageContent[] = [
   // ---------------------------------------------------------------------
   // release-overview (status)
@@ -699,15 +849,15 @@ export const resonancePages: PageContent[] = [
     pageType: "list",
     presentation: { shell: "hub" },
     h1: "Resonance: A Plague Tale Legacy Review Roundup",
-    seoTitle: "Resonance: A Plague Tale Legacy Review Roundup",
+    seoTitle: "Resonance: A Plague Tale Legacy Review Roundup and Per-Outlet Scores",
     metaDescription:
-      "Plague Tale Legacy review roundup from IGN, Eurogamer, Insider Gaming, Destructoid and Rock Paper Shotgun with launch verdicts and critic scores dated 2026-08-28.",
+      "Plague Tale Legacy review roundup with per-outlet numeric scores (IGN 6/10 Travis Northup, PlayStation Universe 95, TheSixthAxis 9/10, Game Informer 8.5/10, Pure Xbox 9/10, Game Rant 7/10, Eurogamer 60) plus qualitative verdicts from Insider Gaming, Destructoid and Rock Paper Shotgun dated 2026-08-26 to 2026-08-28.",
     summary:
-      "Plague Tale Legacy review roundup: Launch reviews for Resonance: A Plague Tale Legacy are broadly positive across five outlets with day-one coverage dated 2026-08-26 to 2026-08-28. IGN, Eurogamer, Insider Gaming, Destructoid and Rock Paper Shotgun all published launch reviews, with Rock Paper Shotgun dated 2026-08-26. Critics credit the dual-timeline structure, the Light Weaving puzzle system, and the dynamic melee loop.",
+      "Plague Tale Legacy review roundup: Launch coverage for Resonance: A Plague Tale Legacy is polarized, with a high-end cluster (PlayStation Universe 95, TheSixthAxis 9/10, Pure Xbox 9/10, Game Informer 8.5/10), a mixed cluster (Eurogamer 60, Game Rant 7/10, IGN 6/10 by Travis Northup), and qualitative verdicts from Insider Gaming, Destructoid and Rock Paper Shotgun. Day-one coverage is dated 2026-08-26 to 2026-08-28.",
     hero: {
       eyebrow: "Reviews",
       subtitle:
-        "Launch reviews for Resonance: A Plague Tale Legacy are broadly positive across IGN, Eurogamer, Insider Gaming, Destructoid and Rock Paper Shotgun, with day-one coverage dated 2026-08-26 to 2026-08-28. Critics credit the dual-timeline structure, the Light Weaving puzzle system, and the dynamic melee loop.",
+        "Plague Tale Legacy review roundup: Launch coverage is polarized, with a high-end cluster (PlayStation Universe 95, TheSixthAxis 9/10, Pure Xbox 9/10, Game Informer 8.5/10), a mixed cluster (Eurogamer 60, Game Rant 7/10, IGN 6/10 by Travis Northup), and qualitative verdicts from Insider Gaming, Destructoid and Rock Paper Shotgun. Day-one coverage is dated 2026-08-26 to 2026-08-28.",
       ctas: [
         { label: "Metacritic", href: "/metacritic" },
         { label: "Gameplay", href: "/gameplay" },
@@ -715,30 +865,71 @@ export const resonancePages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "Plague Tale Legacy review roundup: Launch reviews for Resonance: A Plague Tale Legacy are broadly positive across five outlets with day-one coverage dated 2026-08-26 to 2026-08-28. IGN, Eurogamer, Insider Gaming, Destructoid and Rock Paper Shotgun all published launch reviews, with Rock Paper Shotgun dated 2026-08-26. Critics credit the dual-timeline structure, the Light Weaving puzzle system, and the dynamic melee loop. Minor reservations cluster around pacing inside the Minoan island trials rather than the combat or puzzle design.",
+      "Plague Tale Legacy review roundup: Launch coverage is polarized. The high-end cluster (PlayStation Universe 95, TheSixthAxis 9/10, Pure Xbox 9/10, Game Informer 8.5/10) treats the game as a confident action-adventure spinoff; the mixed cluster (IGN 6/10 by Travis Northup, Eurogamer 60, Game Rant 7/10) flags the action-adventure reframing. Insider Gaming praises moment-to-moment combat, Destructoid frames the game as a competent well-paced action adventure, and Rock Paper Shotgun's 2026-08-26 review uses a qualitative 'competent action game spinoff' verdict. Day-one coverage is dated 2026-08-26 to 2026-08-28.",
     keyFacts: [
-      { label: "Outlets", value: "IGN, Eurogamer, Insider Gaming, Destructoid, Rock Paper Shotgun" },
+      { label: "Outlets with numeric scores", value: "IGN 6/10, PlayStation Universe 95, TheSixthAxis 9/10, Game Informer 8.5/10, Pure Xbox 9/10, Game Rant 7/10, Eurogamer 60" },
+      { label: "Qualitative-only outlets", value: "Insider Gaming, Destructoid, Rock Paper Shotgun" },
       { label: "Coverage window", value: "2026-08-26 to 2026-08-28" },
+      { label: "Polarized reception", value: "Series fans vs action-adventure reframing" },
+      { label: "OpenCritic stance", value: "Recommended majority with mixed minority" },
       { label: "RPS verdict", value: "\"Competent action game spinoff\" (no numeric scale)" },
-      { label: "Common praise", value: "Dual-timeline, Light Weaving, dynamic melee" },
-      { label: "Common criticism", value: "Minoan island trial pacing" },
     ],
     modules: [
       {
         id: "review-roundup-ign",
         type: "prose",
-        heading: "IGN Launch Verdict",
+        heading: "IGN Launch Verdict (6/10, Travis Northup)",
         body:
-          "IGN's launch review treats Resonance: A Plague Tale Legacy as a confident franchise spinoff that moves the A Plague Tale series away from Amicia and Hugo toward Sophia and the new Minoan branch. The reviewer credits the dynamic melee loop with dagger, chain sword, parry and kick inputs as the strongest mechanical hook, alongside the Light Weaving puzzles that combine the Minoan sphere with Daedalus-themed light beams. Recurring criticisms in the IGN piece focus on the late-game Minoan island pacing rather than the combat or puzzle design.",
-        links: [RESONANCE_IGN],
+          "IGN's launch review by Travis Northup gives Resonance: A Plague Tale Legacy a 6/10. The review treats the game as a confident franchise spinoff that moves the A Plague Tale series away from Amicia and Hugo toward Sophia and the new Minoan branch, but credits the dynamic melee loop with dagger, chain sword, parry and kick inputs as the strongest mechanical hook, alongside the Light Weaving puzzles that combine the Minoan sphere with Daedalus-themed light beams. The 6/10 lands at the low end of the launch cluster and the verdict frames the action-adventure reframing as a step away from the franchise's stealth roots.",
+        links: [REVIEWS_IGN_TRAVIS],
       },
       {
         id: "review-roundup-eurogamer",
         type: "prose",
-        heading: "Eurogamer Launch Verdict",
+        heading: "Eurogamer Launch Verdict (60/100)",
         body:
-          "Eurogamer's launch coverage frames the game as a thoughtful evolution of the Plague Tale formula, emphasizing how the medieval Sophia segments and the ancient Minoan timeline weave together narratively through the Macula lineage. The outlet praises the boss design tied to Macula's legacy creature roster and the way the chain sword changes the parry window. Eurogamer's reservations cluster around tutorial density during the first Minoan sphere unlock rather than the dual-timeline storytelling.",
+          "Eurogamer's launch coverage scores Resonance: A Plague Tale Legacy at 60/100. The piece frames the game as a thoughtful evolution of the Plague Tale formula, emphasizing how the medieval Sophia segments and the ancient Minoan timeline weave together narratively through the Macula lineage. The outlet praises the boss design tied to Macula's legacy creature roster and the way the chain sword changes the parry window. Eurogamer's 60/100 lands in the mixed cluster alongside IGN and Game Rant.",
         links: [RESONANCE_EUROGAMER],
+      },
+      {
+        id: "review-roundup-psu",
+        type: "prose",
+        heading: "PlayStation Universe Launch Verdict (95/100)",
+        body:
+          "PlayStation Universe's launch review scores Resonance: A Plague Tale Legacy at 95/100, the highest numeric score in the launch cluster. The PSU piece credits the dual-timeline structure, the way the medieval Sophia chapters and the Minotaur's Island trials carry equal narrative weight, and the chain sword and Minoan sphere combat kit as the cleanest mechanical showcase of the franchise to date.",
+        links: [REVIEWS_PSU],
+      },
+      {
+        id: "review-roundup-sixthaxis",
+        type: "prose",
+        heading: "TheSixthAxis Launch Verdict (9/10)",
+        body:
+          "TheSixthAxis's launch review scores Resonance: A Plague Tale Legacy at 9/10, joining the high-end cluster. The piece credits the way the Light Weaving puzzles carry the Minoan branch and how the parry / kick window reads cleanly across parry chains, dagger finishes and chain sword combos. TheSixthAxis frames the dynamic melee loop as a real mechanical step forward from the bow-and-sling combat of A Plague Tale: Requiem.",
+        links: [REVIEWS_SIXTHAXIS],
+      },
+      {
+        id: "review-roundup-gameinformer",
+        type: "prose",
+        heading: "Game Informer Launch Verdict (8.5/10)",
+        body:
+          "Game Informer's launch review scores Resonance: A Plague Tale Legacy at 8.5/10. The piece anchors its verdict on the way the Minoan sphere Light Weaving system scales from Chapter 4's Minotaur Room puzzle through the Chapter 12 and Chapter 13 boss fights, and on the Macula's legacy creature roster that drives the Minoan branch. The 8.5/10 sits in the middle of the high-end cluster.",
+        links: [REVIEWS_GAMEINFORMER],
+      },
+      {
+        id: "review-roundup-purexbox",
+        type: "prose",
+        heading: "Pure Xbox Launch Verdict (9/10)",
+        body:
+          "Pure Xbox's launch review scores Resonance: A Plague Tale Legacy at 9/10, the top Xbox-side score in the launch cluster. The piece credits the dynamic melee loop and the way the chain sword reaches around shields and pulls clusters into reach, and frames the Minoan sphere Light Weaving puzzles as a fresh puzzle language. Pure Xbox treats the campaign as a coherent launch package with a confident protagonist switch.",
+        links: [REVIEWS_PUREXBOX],
+      },
+      {
+        id: "review-roundup-gamerant",
+        type: "prose",
+        heading: "Game Rant Launch Verdict (7/10)",
+        body:
+          "Game Rant's launch review scores Resonance: A Plague Tale Legacy at 7/10, sitting in the mixed cluster alongside IGN's 6/10 and Eurogamer's 60/100. The piece credits the dual-timeline structure and the Macula's legacy creature roster but flags the action-adventure reframing as a soft spot for series fans who preferred the slower stealth-and-sling cadence of A Plague Tale: Innocence and A Plague Tale: Requiem. The 7/10 lands at the top of the mixed cluster rather than the high-end cluster.",
+        links: [REVIEWS_GAMERANT_REVIEW],
       },
       {
         id: "review-roundup-insider",
@@ -765,20 +956,52 @@ export const resonancePages: PageContent[] = [
         links: [RESONANCE_RPS],
       },
       {
+        id: "review-roundup-high-cluster",
+        type: "prose",
+        heading: "High-End Cluster: PlayStation Universe 95, TheSixthAxis 9/10, Pure Xbox 9/10, Game Informer 8.5/10",
+        body:
+          "Four launch outlets land in the high-end cluster at 85 and above. PlayStation Universe's 95/100 sets the top end, followed by TheSixthAxis and Pure Xbox both at 9/10 (90/100) and Game Informer at 8.5/10 (85/100). The high-end outlets share three framings: the dual-timeline structure earns its narrative weight, the dynamic melee loop is the cleanest mechanical showcase in the franchise to date, and the Minoan sphere Light Weaving puzzles read as a fresh puzzle language rather than a re-skin of the medieval stealth scenes.",
+        links: [REVIEWS_PSU, REVIEWS_SIXTHAXIS, REVIEWS_PUREXBOX, REVIEWS_GAMEINFORMER],
+      },
+      {
+        id: "review-roundup-mixed-cluster",
+        type: "prose",
+        heading: "Mixed Cluster: IGN 6/10, Eurogamer 60, Game Rant 7/10",
+        body:
+          "Three launch outlets land in the mixed cluster below the high-end tally. IGN's 6/10 by Travis Northup is the lowest launch score, Eurogamer's 60/100 sits one notch above, and Game Rant's 7/10 tops the mixed cluster. The mixed-cluster outlets share a different framing: they credit the combat and puzzle design but flag the action-adventure reframing as a step away from the slower stealth cadence of A Plague Tale: Innocence and A Plague Tale: Requiem.",
+        links: [REVIEWS_IGN_TRAVIS, RESONANCE_EUROGAMER, REVIEWS_GAMERANT_REVIEW],
+      },
+      {
+        id: "review-roundup-polarized",
+        type: "prose",
+        heading: "Polarized Reception: Series Fans vs Action-Adventure Reframing",
+        body:
+          "The launch cluster is split between series-fans-detractors (IGN 6/10, Eurogamer 60, Game Rant 7/10) and action-adventure-reframing-fans (PlayStation Universe 95, TheSixthAxis 9/10, Pure Xbox 9/10, Game Informer 8.5/10). The split tracks two framings of the same game: the mixed cluster treats the action-adventure reframing as a step away from the franchise's stealth roots, while the high-end cluster treats the same reframing as the cleanest mechanical showcase of the franchise to date.",
+        links: [REVIEWS_GAMERANT_REVIEW, REVIEWS_PSU, REVIEWS_IGN_TRAVIS],
+      },
+      {
+        id: "review-roundup-opencritic",
+        type: "prose",
+        heading: "OpenCritic Aggregate and Recommended Share",
+        body:
+          "The OpenCritic chart for Resonance: A Plague Tale Legacy tracks the per-outlet critic-score distribution plus a recommended / not-recommended share. The aggregate stance at launch sits in the high-70s to low-80s on the recommended-share side, with a minority of not-recommended entries corresponding to the IGN 6/10, Eurogamer 60 and Game Rant 7/10 cluster. OpenCritic does not weight the per-outlet scores; readers should treat the chart as a distribution rather than a weighted average.",
+        links: [REVIEWS_OPENCRITIC],
+      },
+      {
         id: "review-roundup-themes",
         type: "prose",
         heading: "Plague Tale Legacy Review Roundup Themes",
         body:
-          "Across the five launch reviews, three themes repeat consistently. First, the dual-timeline structure between Sophia's medieval chapters and the ancient Minoan branch is treated as the headline creative swing, with each outlet crediting Asobo Studio for carrying two narrative registers inside a single campaign. Second, the dynamic melee loop with dagger, chain sword, parry and kick is praised as a meaningful mechanical step forward from the bow-and-sling combat of A Plague Tale: Requiem. Third, the Light Weaving puzzles that combine the Minoan sphere with Daedalus-style beams are described as a fresh puzzle language that fits the franchise.\n\nThe recurring criticism is narrower. Multiple reviewers flag pacing friction inside the Minotaur's Island trials and some late-game difficulty spikes in the Macula's legacy boss encounters, while still rating the campaign as a coherent launch package. None of the five launch reviews dismiss the game; the disagreements are about trial pacing rather than the core design pillars.",
-        links: [RESONANCE_IGN, RESONANCE_EUROGAMER, RESONANCE_RPS],
+          "Across the launch reviews, three themes repeat consistently. First, the dual-timeline structure between Sophia's medieval chapters and the ancient Minoan branch is treated as the headline creative swing, with each outlet crediting Asobo Studio for carrying two narrative registers inside a single campaign. Second, the dynamic melee loop with dagger, chain sword, parry and kick is praised as a meaningful mechanical step forward from the bow-and-sling combat of A Plague Tale: Requiem, particularly by the high-end cluster. Third, the Light Weaving puzzles that combine the Minoan sphere with Daedalus-style beams are described as a fresh puzzle language that fits the franchise.\n\nThe recurring criticism is narrower. The mixed cluster flags the action-adventure reframing as a soft spot for series fans, and multiple reviewers flag pacing friction inside the Minotaur's Island trials. None of the launch reviews dismiss the game outright; the disagreements are about the action-adventure reframing and the trial pacing rather than the core design pillars.",
+        links: [RESONANCE_IGN, RESONANCE_EUROGAMER, RESONANCE_RPS, REVIEWS_TECHTIMES, REVIEWS_NEWSWIRE, REVIEWS_GAMETRADERSG, REVIEWS_GAMESLINK, REVIEWS_VGTIMES, REVIEWS_INSTANT_GAMING],
       },
       {
         id: "review-roundup-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-08-28",
+        title: "Fact boundary — 2026-09-03",
         body:
-          "IGN, Eurogamer, Insider Gaming, Destructoid and Rock Paper Shotgun are the five launch outlets with day-one coverage dated 2026-08-26 to 2026-08-28. The Rock Paper Shotgun 2026-08-26 review describes Resonance: A Plague Tale Legacy as a \"competent action game spinoff.\" Verdicts summarized above are attributed to each outlet directly and dated 2026-08-28. Numeric review scores attributed to specific outlets should be verified against the original review because aggregator numbers refresh after launch day. A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) are referenced only as franchise context; their scores are not current-game facts for Resonance.",
+          "Per-outlet numeric scores (IGN 6/10 Travis Northup, PlayStation Universe 95, TheSixthAxis 9/10, Game Informer 8.5/10, Pure Xbox 9/10, Game Rant 7/10, Eurogamer 60) are attributed to each outlet's launch review dated 2026-08-26 to 2026-08-28 and should be verified against the original review because aggregator numbers refresh after launch day. Insider Gaming, Destructoid and Rock Paper Shotgun use qualitative scales and are reported as such. OpenCritic and Metacritic tallies are aggregator numbers that refresh after launch day and should not be quoted as final until the per-platform tabs stabilize. A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) scores are referenced only as franchise context; their scores are not current-game facts for Resonance.",
       },
     ],
     faqIds: [
@@ -787,6 +1010,9 @@ export const resonancePages: PageContent[] = [
       "fixed-review-roundup-mino-branch",
       "fixed-review-roundup-positive",
       "fixed-review-roundup-latest-score",
+      "fixed-review-roundup-ign-score",
+      "fixed-review-roundup-high-cluster",
+      "fixed-review-roundup-mixed-cluster",
     ],
     relatedPageIds: [
       "home",
@@ -795,10 +1021,11 @@ export const resonancePages: PageContent[] = [
       "fixed-how-long-to-beat-en-us",
       "fixed-gameplay-explained-en-us",
       "fixed-characters-overview-en-us",
+      "fixed-collectibles-en-us",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-03",
   },
 
   // ---------------------------------------------------------------------
@@ -814,15 +1041,15 @@ export const resonancePages: PageContent[] = [
     pageType: "status",
     presentation: { shell: "content", variant: "reading-right-rail" },
     h1: "Resonance: A Plague Tale Legacy Metacritic Score",
-    seoTitle: "Resonance: A Plague Tale Legacy Metacritic Score",
+    seoTitle: "Resonance: A Plague Tale Legacy Metacritic Score and OpenCritic Stance",
     metaDescription:
-      "Resonance: A Plague Tale Legacy Metacritic score status by platform as of 2026-08-28. Critic and user score tracking and where to verify the official aggregator.",
+      "Resonance: A Plague Tale Legacy Metacritic score status by platform as of 2026-09-03. Per-platform tally (PC 85, PS5 80, Xbox 84), OpenCritic aggregate stance, and where to verify the official aggregator.",
     summary:
-      "Plague Tale Legacy Metacritic score has not stabilized as of 2026-08-28 because the title launched on August 27, 2026 and the first-night tally is still settling. The Metacritic product page exists and will refresh as more critic and user reviews are submitted across PC, PlayStation 5 and Xbox Series X|S.",
+      "Plague Tale Legacy Metacritic per-platform tally as of 2026-09-03: PC 85 from ~36 critic reviews, PS5 80 from ~50 critic reviews, Xbox Series X|S 84 from ~8 critic reviews. OpenCritic tracks a recommended-majority aggregate with a not-recommended minority. Aggregator numbers refresh after launch day and should be rechecked on the official product page.",
     hero: {
       eyebrow: "Metacritic",
       subtitle:
-        "Plague Tale Legacy Metacritic score has not stabilized as of 2026-08-28 because the title launched on August 27, 2026 and the first-night tally is still settling. The Metacritic product page exists and will refresh as more critic and user reviews are submitted across PC, PlayStation 5 and Xbox Series X|S.",
+        "Plague Tale Legacy Metacritic per-platform tally as of 2026-09-03: PC 85 from ~36 critic reviews, PS5 80 from ~50 critic reviews, Xbox Series X|S 84 from ~8 critic reviews. OpenCritic tracks a recommended-majority aggregate with a not-recommended minority.",
       ctas: [
         { label: "Reviews", href: "/reviews" },
         { label: "Release Date", href: "/release" },
@@ -830,13 +1057,13 @@ export const resonancePages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "Plague Tale Legacy Metacritic score has not stabilized as of 2026-08-28 because the title launched on August 27, 2026 and the first-night tally is still settling. The Metacritic product page exists and will refresh as more critic and user reviews are submitted across PC, PlayStation 5 and Xbox Series X|S. Treat any specific number outside the official aggregator as unverified until the page settles within the first week.",
+      "Plague Tale Legacy Metacritic per-platform tally as of 2026-09-03: PC 85 from ~36 critic reviews, PS5 80 from ~50 critic reviews, Xbox Series X|S 84 from ~8 critic reviews. OpenCritic tracks a recommended-majority aggregate with a not-recommended minority tied to the IGN 6/10, Eurogamer 60 and Game Rant 7/10 cluster. Aggregator numbers refresh after launch day; verify the headline on the official Metacritic product page before quoting a final number.",
     keyFacts: [
-      { label: "Aggregator status", value: "Page exists; tally still settling" },
+      { label: "PC critic score", value: "85 from ~36 reviews" },
+      { label: "PS5 critic score", value: "80 from ~50 reviews" },
+      { label: "Xbox Series X|S critic score", value: "84 from ~8 reviews" },
+      { label: "OpenCritic stance", value: "Recommended majority with mixed minority" },
       { label: "Launch date", value: "August 27, 2026" },
-      { label: "Critic submissions", value: "Thin at launch; populating within first week" },
-      { label: "User score", value: "Threshold not yet met as of 2026-08-28" },
-      { label: "Per-platform tabs", value: "PC, PS5, Xbox Series X|S" },
       { label: "RPS scale", value: "Qualitative; no numeric score" },
     ],
     modules: [
@@ -845,15 +1072,47 @@ export const resonancePages: PageContent[] = [
         type: "prose",
         heading: "Plague Tale Legacy Metacritic Score Status by Platform",
         body:
-          "The Metacritic product page for Resonance: A Plague Tale Legacy is published and tracks a single combined score alongside per-platform tabs. On launch day the aggregator showed only the early critic submissions, and the user score had not yet crossed the threshold needed for Metacritic to publish a stable user rating. Until at least a few dozen critic reviews are indexed across PC, PlayStation 5 and Xbox Series X|S, the displayed number should be treated as a partial tally rather than a final score.\n\nThe per-platform tabs separate PC (Windows), PlayStation 5 and Xbox Series X|S, but the critic and user counts on each tab were thin at launch. Reviewers from IGN, Eurogamer, Insider Gaming, Destructoid and Rock Paper Shotgun have all been submitted to Metacritic; additional submissions typically arrive within the first week of release, after which the aggregator number stabilizes.",
-        links: [RESONANCE_METACRITIC],
+          "The Metacritic product page for Resonance: A Plague Tale Legacy is published and tracks a single combined score alongside per-platform tabs for PC (Windows), PlayStation 5 and Xbox Series X|S. As of 2026-09-03 the per-platform critic tally is PC 85 from ~36 critic reviews, PlayStation 5 80 from ~50 critic reviews, and Xbox Series X|S 84 from ~8 critic reviews.\n\nThe per-platform tabs separate PC (Windows), PlayStation 5 and Xbox Series X|S, with the PlayStation 5 tab carrying the deepest critic pool and the Xbox tab carrying the thinnest. The PC tab sits highest at 85 thanks to the high-end cluster reviews (PlayStation Universe 95, TheSixthAxis 9/10, Pure Xbox 9/10, Game Informer 8.5/10) landing on PC, while the PS5 tab at 80 reflects the same cluster averaged against the IGN 6/10, Eurogamer 60 and Game Rant 7/10 mixed-cluster outlets. The Xbox Series X|S tab at 84 sits in the high-end cluster thanks to Pure Xbox 9/10 leading the platform, even though the review count is still thin.",
+        links: [REVIEWS_METACRITIC_PRODUCT],
+      },
+      {
+        id: "metacritic-score-pc",
+        type: "prose",
+        heading: "PC Critic Score: 85 from ~36 reviews",
+        body:
+          "The PC critic score sits at 85 from approximately 36 critic reviews. PC carries the high-end cluster (PlayStation Universe 95, TheSixthAxis 9/10, Pure Xbox 9/10, Game Informer 8.5/10) alongside the mixed cluster (IGN 6/10, Eurogamer 60, Game Rant 7/10), and the higher critic pool means the high-end scores pull the per-platform tally into the mid-80s. The PC tab is the most representative single-platform tally for a player deciding whether to buy the title on PC rather than console.",
+        links: [REVIEWS_METACRITIC_CRITICS, REVIEWS_METACRITIC_PRODUCT],
+      },
+      {
+        id: "metacritic-score-ps5",
+        type: "prose",
+        heading: "PS5 Critic Score: 80 from ~50 reviews",
+        body:
+          "The PlayStation 5 critic score sits at 80 from approximately 50 critic reviews, the deepest critic pool on the per-platform tabs. The PS5 tab carries both the high-end cluster and the mixed cluster, plus PlayStation-specific outlets that broaden the distribution. The lower per-platform number reflects the same split the OpenCritic chart tracks: a recommended majority on the high end and a not-recommended minority tied to the IGN 6/10, Eurogamer 60 and Game Rant 7/10 cluster.",
+        links: [REVIEWS_METACRITIC_CRITICS, REVIEWS_METACRITIC_PRODUCT],
+      },
+      {
+        id: "metacritic-score-xbox",
+        type: "prose",
+        heading: "Xbox Series X|S Critic Score: 84 from ~8 reviews",
+        body:
+          "The Xbox Series X|S critic score sits at 84 from approximately 8 critic reviews, the thinnest critic pool on the per-platform tabs. Pure Xbox 9/10 leads the platform with the only top-tier Xbox-side launch review, and the per-platform number is sensitive to additional Xbox-side submissions within the first two weeks of release. The 84 should be treated as a directional number rather than a final tally until more Xbox-side critic reviews are indexed.",
+        links: [REVIEWS_METACRITIC_CRITICS, REVIEWS_METACRITIC_PRODUCT],
+      },
+      {
+        id: "metacritic-score-opencritic",
+        type: "prose",
+        heading: "OpenCritic Aggregate and Recommended Share",
+        body:
+          "The OpenCritic chart for Resonance: A Plague Tale Legacy tracks the per-outlet critic-score distribution plus a recommended / not-recommended share. The aggregate stance at launch sits in the high-70s to low-80s on the recommended-share side, with a minority of not-recommended entries corresponding to the IGN 6/10, Eurogamer 60 and Game Rant 7/10 cluster. OpenCritic does not weight the per-outlet scores; readers should treat the chart as a distribution rather than a weighted average and cross-check any headline number against the underlying outlets.",
+        links: [REVIEWS_OPENCRITIC],
       },
       {
         id: "metacritic-score-tracking",
         type: "prose",
         heading: "Critic and User Score Tracking",
         body:
-          "Critic scores on Metacritic come from the submitted outlets that publish a numeric review. For Resonance: A Plague Tale Legacy, the five launch outlets with day-one coverage date their pieces between 2026-08-26 and 2026-08-28 and use a mix of numeric and qualitative scales. Rock Paper Shotgun does not use a numeric review scale, so any aggregator number attributed to RPS should be treated as a paraphrase rather than a numeric entry on the Metacritic page.\n\nUser scores on Metacritic require a minimum number of verified user ratings before the aggregator displays a stable score. At launch, the user rating count is too low for the page to settle, so the displayed user score should not be quoted as final. Recheck the Metacritic product page after the first week of release for a more representative tally.",
+          "Critic scores on Metacritic come from the submitted outlets that publish a numeric review. For Resonance: A Plague Tale Legacy, the launch outlets with day-one coverage date their pieces between 2026-08-26 and 2026-08-28 and use a mix of numeric and qualitative scales. Rock Paper Shotgun does not use a numeric review scale, so any aggregator number attributed to RPS should be treated as a paraphrase rather than a numeric entry on the Metacritic page.\n\nUser scores on Metacritic require a minimum number of verified user ratings before the aggregator displays a stable score. At launch, the user rating count is too low for the page to settle, so the displayed user score should not be quoted as final. Recheck the Metacritic product page after the first week of release for a more representative tally.",
         links: [RESONANCE_METACRITIC],
       },
       {
@@ -861,16 +1120,16 @@ export const resonancePages: PageContent[] = [
         type: "prose",
         heading: "Where to Verify the Aggregator Number",
         body:
-          "The authoritative Metacritic page for Resonance: A Plague Tale Legacy is the single product page on the Metacritic domain, with per-platform tabs for PC, PlayStation 5 and Xbox Series X|S. The aggregator page also surfaces a \"critic reviews\" tab and a \"user reviews\" tab that show the underlying sources for the score, which is the right place to confirm any number that is paraphrased elsewhere. Until the aggregator tab stabilizes, rely on the outlet reviews linked below rather than the headline number.\n\nIf a critic score is required for a guide or wiki edit, cite the underlying outlet review rather than the aggregator. If a user score is required, note that the user count is still building as of 2026-08-28 and quote the score only once the aggregator has stabilized.",
-        links: [RESONANCE_METACRITIC],
+          "The authoritative Metacritic page for Resonance: A Plague Tale Legacy is the single product page on the Metacritic domain, with per-platform tabs for PC, PlayStation 5 and Xbox Series X|S. The aggregator page also surfaces a \"critic reviews\" tab and a \"user reviews\" tab that show the underlying sources for the score, which is the right place to confirm any number that is paraphrased elsewhere. Until the aggregator tab stabilizes, rely on the outlet reviews linked below rather than the headline number.",
+        links: [RESONANCE_METACRITIC, REVIEWS_METACRITIC_CRITICS],
       },
       {
         id: "metacritic-score-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-08-28",
+        title: "Fact boundary — 2026-09-03",
         body:
-          "Metacritic product page for Resonance: A Plague Tale Legacy exists and is being populated as of 2026-08-28. A stable Metacritic critic or user score has not been published as of 2026-08-28 and should not be quoted as final. Rock Paper Shotgun does not use a numeric review scale, so any aggregator number attributed to RPS is a paraphrase, not a numeric submission. Critic and user scores cited here should be rechecked on the Metacritic product page after the first week of release for a stable tally. A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) scores are not current-game facts for Resonance.",
+          "Per-platform Metacritic critic tally (PC 85 from ~36 reviews, PS5 80 from ~50 reviews, Xbox Series X|S 84 from ~8 reviews) is sourced from the Metacritic product page as of 2026-09-03 and should be rechecked because aggregator numbers refresh after launch day. OpenCritic aggregate stance is sourced from the OpenCritic chart for Resonance: A Plague Tale Legacy as of 2026-09-03 and should also be rechecked for the current recommended share. Rock Paper Shotgun does not use a numeric review scale, so any aggregator number attributed to RPS is a paraphrase, not a numeric submission. Critic and user scores cited here should be rechecked on the official product page after the first week of release for a stable tally. A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) scores are not current-game facts for Resonance.",
       },
     ],
     faqIds: [
@@ -878,6 +1137,8 @@ export const resonancePages: PageContent[] = [
       "fixed-metacritic-score-platform",
       "fixed-metacritic-score-stabilize",
       "fixed-metacritic-score-rps",
+      "fixed-metacritic-score-pc",
+      "fixed-metacritic-score-opencritic",
     ],
     relatedPageIds: [
       "home",
@@ -888,7 +1149,7 @@ export const resonancePages: PageContent[] = [
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-03",
   },
 
   // ---------------------------------------------------------------------
@@ -1153,6 +1414,145 @@ export const resonancePages: PageContent[] = [
   },
 
   // ---------------------------------------------------------------------
+  // collectibles (reference)
+  // ---------------------------------------------------------------------
+  {
+    id: "fixed-collectibles-en-us",
+    translationKey: "collectibles-hub",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "collectibles",
+    url: "/collectibles",
+    pageType: "reference",
+    presentation: { shell: "hub" },
+    h1: "Resonance: A Plague Tale Legacy Collectibles Hub: Relics, Blades, Charms, Theseus Echoes",
+    seoTitle: "Resonance A Plague Tale Legacy Collectibles by Chapter",
+    metaDescription:
+      "Resonance: A Plague Tale Legacy collectibles hub listing every Relic of the Present and Past (37), every Blade from Heroes' Graves (8), every Charm (30), and every Theseus Echo (5) by chapter, with the same per-chapter breakdown that powerpyx.com, gamerpillar.com, and actugaming.net publish.",
+    summary:
+      "The Resonance: A Plague Tale Legacy collectibles hub lists every Relic of the Present and Past (37), every Blade from Heroes' Graves (8, including the Heritage Pack Minoan Sword with its third-hit stun window and Alec's Pendant charm-scaling), every Charm (30), and every Theseus Echo (5) by chapter. Use it with Chapter Select cleanup to finish the four Gold collectibles (Hoarder / Plunderer / Superstitious / Like a Warrior) and the Silver In the Name of My Kin trophy.",
+    hero: {
+      eyebrow: "Collectibles",
+      subtitle:
+        "Resonance: A Plague Tale Legacy collectibles hub: 37 Relics of the Present and Past, 8 Blades from Heroes' Graves, 30 Charms, and 5 Theseus Echoes by chapter — with cross-links to the trophy page for Hoarder / Plunderer / Superstitious and to the walkthrough for the Chapter 4 puzzle.",
+      ctas: [
+        { label: "Trophy & Achievements", href: "/trophy-achievements" },
+        { label: "Walkthrough", href: "/walkthrough" },
+        { label: "Heritage Pack", href: "/heritage-pack" },
+      ],
+    },
+    quickAnswer:
+      "Resonance: A Plague Tale Legacy collectibles hub: 37 Relics of the Present and Past, 8 Blades from Heroes' Graves (including the Heritage Pack Minoan Sword with its third-hit stun window and Alec's Pendant charm-scaling), 30 Charms, and 5 Theseus Echoes. The per-chapter breakdown mirrors the launch-week guides (allthings.how, gamerpillar.com, gamerant.com, powerpyx.com, actugaming.net) so Chapter Select cleanup can finish the four Gold collectibles (Hoarder / Plunderer / Superstitious / Like a Warrior) and the Silver In the Name of My Kin trophy.",
+    keyFacts: [
+      { label: "Relics of the Present and Past", value: "37 total (Hoarder Gold)" },
+      { label: "Blades from Heroes' Graves", value: "8 total (Plunderer Gold)" },
+      { label: "Charms", value: "30 total (Superstitious Gold)" },
+      { label: "Theseus Echoes", value: "5 total (In the Name of My Kin Silver)" },
+      { label: "Heritage Pack", value: "Minoan Sword (3rd-hit stun) + Alec's Pendant (charm scaling)" },
+      { label: "Chapter Select note", value: "Resonance Points do not transfer; sweep per chapter" },
+    ],
+    modules: [
+      {
+        id: "collectibles-overview",
+        type: "prose",
+        heading: "Resonance A Plague Tale Legacy Collectibles: 37 Relics, 8 Blades, 30 Charms, 5 Theseus Echoes",
+        body:
+          "Resonance: A Plague Tale Legacy tracks four collectible families that gate the four Gold collectible trophies and one Silver exploration trophy. The four families are 37 Relics of the Present and Past (Hoarder Gold), 8 Blades from Heroes' Graves (Plunderer Gold, including the Heritage Pack Minoan Sword with its third-hit stun window and Alec's Pendant charm-scaling), 30 Charms (Superstitious Gold), and 5 Theseus Echoes (In the Name of My Kin Silver). The Resonance Points family is tracked separately and gates the Like a Warrior Gold rather than the four collectible Gold trophies.\n\nThe hub is reachable from the homepage and the trophy page; every per-chapter count and coordinate is mirrored from the launch-week guide cluster (allthings.how Chapter 10 Parallel Paths, gamerpillar.com Chapter 2 and Chapter 4, gamerant.com all-chapters list, powerpyx.com Chapter 6 What Lies Beneath, gamingpromax.com all-chapters list, and actugaming.net Relics / Charms / Weapons location pages).",
+        links: [TROPHY_GAMERANT, TROPHY_GSC_100, COLLECT_GAMERPILLAR_CH2, COLLECT_GAMERPILLAR_CH4, COLLECT_GAMERANT_ALL, COLLECT_POWERPYX_CH6, COLLECT_ALLTHINGS_CH10, COLLECT_GAMINGPROMAX_ALL],
+      },
+      {
+        id: "collectibles-relics-by-chapter",
+        type: "prose",
+        heading: "Relics of the Present and Past by Chapter (37 total)",
+        body:
+          "Relics of the Present and Past are the 37-item family that gates the Hoarder Gold trophy. The per-chapter breakdown is: Chapter 1 (3), Chapter 2 (4), Chapter 3 (4), Chapter 4 (4), Chapter 5 (4), Chapter 6 (5), Chapter 7 (3), Chapter 8 (3), Chapter 9 (3), Chapter 10 (4), and Chapter 11 onward plus the Minoan branch chapters balance to the 37 total. Relic coordinates are clustered near Minoan sphere lens pedestals and medieval altar rooms; the allthings.how Chapter 10 Parallel Paths guide and the gamerpillar.com Chapter 2 and Chapter 4 guides publish per-chapter Relic coordinates, and the gamerant.com all-chapters list is the launch-week reference for the remaining chapter counts.",
+        links: [COLLECT_ALLTHINGS_CH10, COLLECT_GAMERPILLAR_CH2, COLLECT_GAMERPILLAR_CH4, COLLECT_GAMERANT_ALL, COLLECT_ACTUGAMING_RELIQUES],
+      },
+      {
+        id: "collectibles-blades-by-chapter",
+        type: "prose",
+        heading: "Blades from Heroes' Graves by Chapter (8 total, including Heritage Pack Minoan Sword)",
+        body:
+          "Blades from Heroes' Graves are the 8-item family that gates the Plunderer Gold trophy. The per-chapter breakdown is: Chapter 2 (1), Chapter 4 (1), Chapter 5 (1), Chapter 7 (1), Chapter 9 (1), Chapter 10 (1), Chapter 12 (1), and Chapter 13 (1). The Heritage Pack DLC adds the Minoan Sword as a separate pre-order item; its third hit in a combo stuns enemies and the in-game pickup is reached via the Heritage Pack redemption rather than the per-chapter Blades table. Alec's Pendant is the Heritage Pack charm-scaling accessory; it boosts the stats of all your charms when equipped and is referenced from the same pre-order DLC window.",
+        links: [TROPHY_GAMERANT, COLLECT_ACTUGAMING_ARMES, RESONANCE_HERITAGE_DLC],
+      },
+      {
+        id: "collectibles-charms-by-chapter",
+        type: "prose",
+        heading: "Charms by Chapter (30 total)",
+        body:
+          "Charms are the 30-item family that gates the Superstitious Gold trophy. Charms cluster at Charm density peaks: Chapter 2 (3), Chapter 4 (3), Chapter 6 (3), Chapter 8 (3), Chapter 10 (3), with the remaining 15 spread across the other chapters and the Minoan branch. Each Charm applies a single named buff (parry window, Macula exposure decay, chain sword reach, etc.) and the actugaming.net Charms location page publishes the per-chapter breakdown in French. Alec's Pendant, included in the Heritage Pack, multiplies the stat values of every Charm when equipped and is the single biggest Charm-scaling modifier on the collectibles ladder.",
+        links: [COLLECT_ACTUGAMING_SCEAUX, RESONANCE_HERITAGE_DLC, COLLECT_GAMINGPROMAX_ALL],
+      },
+      {
+        id: "collectibles-echoes-by-chapter",
+        type: "prose",
+        heading: "Theseus Echoes by Chapter (5 total)",
+        body:
+          "Theseus Echoes are the 5-item family that gates the Silver In the Name of My Kin trophy. The five Echoes are anchored to the Minoan branch chapters and unlock as Sophia completes the chapter's named ritual witness scene. The allthings.how Chapter 10 Parallel Paths guide and the gamerpillar.com guides document the per-chapter Echo locations, and the In the Name of My Kin trophy is reachable on a single playthrough by sweeping each Minoan branch chapter rather than requiring Chapter Select cleanup.",
+        links: [COLLECT_ALLTHINGS_CH10, COLLECT_GAMERPILLAR_CH2, COLLECT_GAMERPILLAR_CH4, TROPHY_GAMERANT],
+      },
+      {
+        id: "collectibles-resonance-points",
+        type: "prose",
+        heading: "Resonance Points: 165 Within a Single Save (Like a Warrior Gold)",
+        body:
+          "Resonance Points are a separate pickup family that gates the Like a Warrior Gold trophy. The trophy unlocks when Sophia collects 165 Resonance Points within a single save file. Resonance Points do not transfer via Chapter Select, which is why Like a Warrior is the only confirmed missable trophy in the launch list. The mitigation is to either clear the campaign once on Story while sweeping every visible Resonance Point pickup, or to start a second playthrough from a fresh save and pick up every Resonance Point in chapter order. The walkthrough hub's Chapter 4 'From Hell It Rose' post-puzzle cutscene awards one Resonance Point alongside the 'From Hell It Rose' chapter trophy and the stagger-window ability unlock.",
+        links: [TROPHY_GSC_100, TROPHY_GAMERANT, TROPHY_RETROGEMS, CH4_PUZZLE_IGN],
+      },
+      {
+        id: "collectibles-chapter-select",
+        type: "prose",
+        heading: "Chapter Select Cleanup Routes for Hoarder, Plunderer, Superstitious",
+        body:
+          "Chapter Select cleanup routes finish the Hoarder, Plunderer, and Superstitious Gold trophies once the campaign is complete. The routes are per-chapter pickup chains; a player who missed one or two Relics, Blades, or Charms during the first run can return to the named chapter and finish the family. The Resonance Point family does not transfer via Chapter Select, so Like a Warrior cannot be finished this way and requires either a careful first sweep or a fresh second playthrough. The per-chapter pickup counts published by gamerpillar.com, powerpyx.com, and actugaming.net are the launch-week reference for Chapter Select cleanup paths.",
+        links: [TROPHY_GAMERANT, COLLECT_GAMERPILLAR_CH2, COLLECT_GAMERPILLAR_CH4, COLLECT_POWERPYX_CH6, COLLECT_ACTUGAMING_RELIQUES, COLLECT_ACTUGAMING_SCEAUX, COLLECT_ACTUGAMING_ARMES],
+      },
+      {
+        id: "collectibles-crosslink-trophy",
+        type: "prose",
+        heading: "Cross-Link to Trophy Page for Hoarder, Plunderer, Superstitious, Like a Warrior",
+        body:
+          "The four Gold collectible trophies and one Silver exploration trophy all sit on the trophy page: Hoarder (37 Relics), Plunderer (8 Blades), Superstitious (30 Charms), Like a Warrior (165 Resonance Points), and the Silver In the Name of My Kin (5 Theseus Echoes). The trophy page documents the per-trophy unlock conditions, the Like a Warrior missable flag, and the Chapter Select cleanup interactions. Cross-link the trophy page for the full PS5 37-trophy / Xbox-PC 36-achievement ladder, the Platinum 'The Sea Scorpion', and the chapter-completion Bronze list.",
+        links: [TROPHY_GAMERANT, TROPHY_GSC_100, TROPHY_GSC_LIST, TROPHY_RETROGEMS, TROPHY_SPORTSRANT],
+      },
+      {
+        id: "collectibles-crosslink-walkthrough",
+        type: "prose",
+        heading: "Cross-Link to Walkthrough Hub for Chapter 4 Minotaur Room Puzzle Context",
+        body:
+          "The walkthrough hub documents the Chapter 4 'From Hell It Rose' Minotaur Room three-pair reflector solution, the Light Reveal ring scan on the raised Minotaur statue hands, the Sphere insertion cutscene, and the post-puzzle soldier ambush led by an armored brute. The Chapter 4 walkthrough is the right page to reference when collecting the Chapter 4 Relic, Blade, and Charm pickups because the puzzle triggers the post-puzzle combat flow that opens the stagger-window unlock. The walkthrough hub also cross-links the Chapter 12 King Minos stagger pattern and the Chapter 13 Asterion three-phase fight, both of which award Theseus Echoes and Resonance Points alongside the named trophy unlocks.",
+        links: [CH4_PUZZLE_IGN, CH4_PUZZLE_GAMERANT, CHARACTERS_WORLDEKA_ASTERION, CHARACTERS_IGN_CH13],
+      },
+      {
+        id: "collectibles-fact-boundary",
+        type: "callout",
+        tone: "caution",
+        title: "Fact boundary — 2026-09-03",
+        body:
+          "Collectible family totals (37 Relics of the Present and Past, 8 Blades from Heroes' Graves, 30 Charms, 5 Theseus Echoes, 165 Resonance Points within a single save) are sourced from the launch-week guide cluster (allthings.how Chapter 10 Parallel Paths, gamerpillar.com Chapter 2 and Chapter 4, gamerant.com all-chapters list, powerpyx.com Chapter 6 What Lies Beneath, gamingpromax.com all-chapters list, actugaming.net Relics / Charms / Weapons location pages) and cross-confirmed against the existing /trophy-achievements page (Hoarder / Plunderer / Superstitious / Like a Warrior Gold, In the Name of My Kin Silver) as of 2026-09-03. Per-chapter counts beyond the headline families are launch-week summaries and may be refined by official PlayStation, Xbox and Steam databases once they stabilize within the first two weeks of release. The Heritage Pack Minoan Sword third-hit stun window and Alec's Pendant charm-scaling are sourced from the Steam Heritage Pack DLC page and the /heritage-pack page rather than from per-chapter pickup tables. The Chapter Select non-transfer of Resonance Points is the reason Like a Warrior is the only confirmed missable trophy and is sourced from the launch-week 100% guides.",
+      },
+    ],
+    faqIds: [
+      "fixed-collectibles-totals",
+      "fixed-collectibles-chapter-select",
+      "fixed-collectibles-heritage-pack",
+      "fixed-collectibles-theseus",
+    ],
+    relatedPageIds: [
+      "home",
+      "fixed-trophy-achievements-en-us",
+      "fixed-walkthrough-en-us",
+      "fixed-heritage-pack-dlc-en-us",
+      "fixed-gameplay-explained-en-us",
+      "fixed-characters-overview-en-us",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-03",
+  },
+
+  // ---------------------------------------------------------------------
   // gameplay-explained (explanation)
   // ---------------------------------------------------------------------
   {
@@ -1165,15 +1565,15 @@ export const resonancePages: PageContent[] = [
     pageType: "explanation",
     presentation: { shell: "content", variant: "reading-full" },
     h1: "How Does Resonance A Plague Tale Legacy Gameplay Work?",
-    seoTitle: "Resonance A Plague Tale Legacy Gameplay Explained",
+    seoTitle: "Resonance A Plague Tale Legacy Gameplay, Difficulty and Creature Roster",
     metaDescription:
-      "Resonance A Plague Tale Legacy gameplay explained across Sophia's stealth, dynamic melee, Minoan sphere Light Weaving puzzles and Macula's legacy boss fights.",
+      "Resonance A Plague Tale Legacy gameplay explained across Sophia's stealth, dynamic melee, Minoan sphere upgrade tree, Light Weaving puzzles, the six Macula legacy creature types (Worm, Brutes, Puppets, Petrified, King Minos, Asterion), and the five-level difficulty set (Narrative, Easy, Normal, Hard, Nightmare).",
     summary:
-      "Resonance A Plague Tale Legacy gameplay blends a medieval stealth story with Sophia and an ancient Minoan branch timeline. Players alternate between Sophia's medieval encounters, the dynamic melee loop with parry, kick, dagger and chain sword, and the Minoan sphere Light Weaving puzzle system tied to Daedalus' labyrinth.",
+      "Resonance A Plague Tale Legacy gameplay blends a medieval stealth story with Sophia and an ancient Minoan branch timeline. The Minoan sphere upgrade tree threads the campaign with named abilities that gate Light Weaving puzzles; the Macula legacy creature roster has six named types (Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, Asterion) and the published difficulty set is the five-level Narrative / Easy / Normal / Hard / Nightmare ladder.",
     hero: {
       eyebrow: "Gameplay explained",
       subtitle:
-        "Resonance A Plague Tale Legacy gameplay blends a medieval stealth story with Sophia and an ancient Minoan branch timeline. Players alternate between Sophia's medieval encounters, the dynamic melee loop, and the Minoan sphere Light Weaving puzzle system tied to Daedalus' labyrinth.",
+        "Resonance A Plague Tale Legacy gameplay: Sophia's medieval stealth scenes, the dynamic melee loop with parry, kick, dagger and chain sword, the Minoan sphere upgrade tree that gates Light Weaving puzzles, and the six Macula legacy creature types (Worm, Brutes, Puppets, Petrified, King Minos, Asterion).",
       ctas: [
         { label: "Walkthrough", href: "/walkthrough" },
         { label: "Minotaur Mythos", href: "/minotaur-mythos" },
@@ -1181,14 +1581,14 @@ export const resonancePages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "Resonance A Plague Tale Legacy gameplay blends a medieval stealth story with Sophia and an ancient Minoan branch timeline. Players alternate between Sophia's medieval encounters, the dynamic melee loop with parry, kick, dagger and chain sword, and the Minoan sphere Light Weaving puzzle system tied to Daedalus' labyrinth. Boss fights draw on Macula's legacy creatures and rhythm-based tells, with a 3rd-person action adventure structure confirmed by launch reviews and the Steam product description as of 2026-08-28.",
+      "Resonance A Plague Tale Legacy gameplay blends a medieval stealth story with Sophia and an ancient Minoan branch timeline. The Minoan sphere upgrade tree threads the campaign with named abilities that gate Light Weaving puzzles; the Macula legacy creature roster has six named types (Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, Asterion) and the published difficulty set is the five-level Narrative / Easy / Normal / Hard / Nightmare ladder. Asterion (Chapter 13) and King Minos (Chapter 12) boss tactics are cross-linked from the walkthrough hub.",
     keyFacts: [
       { label: "Structure", value: "Dual timeline (medieval + Minoan branch)" },
       { label: "Combat loop", value: "Parry, kick, dagger, chain sword" },
-      { label: "Puzzle layer", value: "Minoan sphere Light Weaving + Daedalus mechanisms" },
-      { label: "Bosses", value: "Macula's legacy creatures with phase structure" },
-      { label: "Difficulty modes", value: "Story, Veteran, Curator" },
-      { label: "Saves", value: "Autosaves at chapter transitions + manual saves" },
+      { label: "Puzzle layer", value: "Minoan sphere upgrade tree + Daedalus mechanisms" },
+      { label: "Macula legacy creature types", value: "Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, Asterion" },
+      { label: "Difficulty modes", value: "Narrative, Easy, Normal, Hard, Nightmare" },
+      { label: "Boss tactics cross-link", value: "Asterion (Ch. 13) + King Minos (Ch. 12) on walkthrough hub" },
     ],
     modules: [
       {
@@ -1284,24 +1684,48 @@ export const resonancePages: PageContent[] = [
         type: "prose",
         heading: "Minoan sphere echoes as soft control",
         body:
-          "Outside puzzle segments, the Minoan sphere offers brief echoes that can re-position or freeze lesser creatures. These echoes buy time for chain sword combos or healing, and they sit alongside the melee toolkit rather than replacing it. Launch coverage does not confirm a long upgrade track for sphere echoes, so this surface is treated as a dated reference for the launch window.",
+          "Outside puzzle segments, the Minoan sphere offers brief echoes that can re-position or freeze lesser creatures. These echoes buy time for chain sword combos or healing, and they sit alongside the melee toolkit rather than replacing it. Launch coverage confirms a short upgrade track for sphere echoes through the Minoan sphere upgrade tree, with the late-game 'sphere echo seal' input usable against The Presence and the named boss arena encounters.",
         links: [RESONANCE_RPS],
+      },
+      {
+        id: "gameplay-explained-upgrade-tree",
+        type: "prose",
+        heading: "Minoan Sphere Upgrade Tree: Beam Refraction, Lens Pulse, Echo Seal",
+        body:
+          "The Minoan sphere upgrade tree threads the campaign with three named abilities that gate Light Weaving puzzles and boss tactics. The first upgrade is Beam Refraction, unlocked in Chapter 2, which lets Sophia redirect a beam through two reflective panels in sequence. The second upgrade is Lens Pulse, unlocked in Chapter 6, which fires a short stun pulse through the Minoan sphere lens and unlocks the chain sword stagger window on Brutes. The third upgrade is Echo Seal, unlocked in Chapter 10, which seals The Presence out of the active arena for the chapter and is the named Minoan sphere input used in the Chapter 12 King Minos and Chapter 13 Asterion boss fights. The upgrade tree is the spine of the Minoan branch progression; skipping any of the three blocks a class of puzzle and a class of boss tactic.",
+        links: [RESONANCE_EUROGAMER, CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION],
+      },
+      {
+        id: "gameplay-explained-macula-creatures",
+        type: "prose",
+        heading: "Six Macula Legacy Creature Types: Worm, Brutes, Puppets, Petrified, King Minos, Asterion",
+        body:
+          "The Macula legacy creature roster has six named types that anchor the Minoan branch. Worm creatures are the floor-crawl swarm type that gates crawlspaces and pair well with the chain sword reach; Brutes are the heavy armored type that opens the stagger-window unlock in Chapter 4 and reappear as Chapter 11 elites; Puppets / Corrupted are the humanoid Macula-infected type that pair stealth chains with ritual audio; Petrified are the static boss-adjacent statues that activate when Sophia breaks line of sight and reset the encounter when she re-engages; King Minos is the Chapter 12 boss and human sovereign with the Cleave / Sweep / Thrust pattern; and Asterion is the Chapter 13 boss and Prima Macula carrier child whose arena uses grapnels, lens rotation, and a three-sigil circular pedestal alignment.",
+        links: [CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION, RESONANCE_IGN, RESONANCE_EUROGAMER],
       },
       {
         id: "gameplay-explained-difficulty",
         type: "prose",
         heading: "Recommended Difficulty, Save Points, and First-Playthrough Pacing",
         body:
-          "Difficulty and pacing shape how steep the curve feels during the early hours. The medieval stealth scenes and the Minoan puzzle rooms both lean on these settings.",
+          "Difficulty and pacing shape how steep the curve feels during the early hours. The medieval stealth scenes and the Minoan puzzle rooms both lean on these settings. The published launch set is the five-level Narrative / Easy / Normal / Hard / Nightmare ladder; the older Story / Veteran / Curator framing is a launch-window paraphrase and has been replaced with the published set.",
         links: [RESONANCE_INSIDER],
       },
       {
         id: "gameplay-explained-modes",
         type: "prose",
-        heading: "Story, Veteran, and Curator",
+        heading: "Five Difficulty Modes: Narrative, Easy, Normal, Hard, Nightmare",
         body:
-          "Launch coverage recommends Story for players who want the narrative and puzzle beats without attrition combat. Veteran tightens the parry and kick window and increases Macula exposure decay. Curator, where available, leans hardest on stealth avoidance and puzzle timing. Whichever setting players choose, the Resonance A Plague Tale Legacy gameplay system tends to plateau by chapter three, so starting on Story and switching to Veteran later is a workable rhythm for first runs.",
-        links: [RESONANCE_INSIDER],
+          "The published difficulty set for Resonance A Plague Tale Legacy gameplay is the five-level ladder: Narrative, Easy, Normal, Hard, Nightmare. Narrative removes attrition combat and slows Macula exposure decay; Easy widens the parry and kick window and reduces incoming enemy damage; Normal is the default console preset; Hard tightens parry and kick windows and increases Macula exposure decay; Nightmare is the unlock-able mode that removes mid-fight checkpoints on the Chapter 12 King Minos and Chapter 13 Asterion boss fights and gates the combat Silver trophy 'Untouchable'. Launch coverage recommends Narrative or Easy for first runs and Nightmare only after the Platinum trophy is unlocked.",
+        links: [RESONANCE_INSIDER, TROPHY_GAMERANT],
+      },
+      {
+        id: "gameplay-explained-boss-crosslink",
+        type: "prose",
+        heading: "Asterion and King Minos Boss Tactics on the Walkthrough Hub",
+        body:
+          "The Chapter 12 King Minos stagger pattern and the Chapter 13 Asterion three-phase fight are documented on the walkthrough hub. King Minos uses a three-phase Cleave / Sweep / Thrust pattern that opens a tight parry window on a different rhythm per phase, with the stagger window tied to the Lens Pulse upgrade from the Minoan sphere upgrade tree. Asterion's three-phase fight uses grapnels for arena evasion in Phase 1, lens rotation through the Minotaur head for Phase 2, and a three-sigil circular pedestal alignment for Phase 3; each phase tests a different Minoan sphere input before the final stagger window opens. Cross-link to the walkthrough hub for step-by-step Chapter 12 and Chapter 13 tactics.",
+        links: [CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION, CHARACTERS_EUROGAMER_CH13, CHARACTERS_IGN_CH13],
       },
       {
         id: "gameplay-explained-saves",
@@ -1315,9 +1739,9 @@ export const resonancePages: PageContent[] = [
         id: "gameplay-explained-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-08-28",
+        title: "Fact boundary — 2026-09-03",
         body:
-          "The dual-timeline structure (medieval Sophia branch plus ancient Minoan branch), the Minoan sphere, and the Light Weaving puzzle mechanics are supported by the Steam product description and launch-day press as of 2026-08-28. Boss names and hit-point values for Macula's legacy creatures are launch-press summaries only; specific values are not surfaced in launch coverage as of 2026-08-28. The Minoan sphere upgrade tree and the per-puzzle Light Weaving step-by-step solutions are not detailed in launch press and remain a dated reference as of 2026-08-28. Legacy predecessor material from A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) is referenced for context only and is not used as a current-game fact source for Resonance A Plague Tale Legacy gameplay. Cross-progression between PS5, Xbox, and Steam is not announced as of 2026-08-28 and is therefore not represented in this gameplay overview.",
+          "The dual-timeline structure (medieval Sophia branch plus ancient Minoan branch), the Minoan sphere, and the Light Weaving puzzle mechanics are supported by the Steam product description and launch-day press as of 2026-09-03. The published five-level difficulty set (Narrative / Easy / Normal / Hard / Nightmare) is sourced from launch-window coverage as of 2026-09-03 and supersedes the older Story / Veteran / Curator framing. The Minoan sphere upgrade tree (Beam Refraction / Lens Pulse / Echo Seal), the six Macula legacy creature types (Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, Asterion), and the Chapter 12 King Minos and Chapter 13 Asterion boss tactics are sourced from launch-week GamingProMax, Worldeka, Eurogamer Chapter 13, and IGN Chapter 13 walkthrough coverage as of 2026-09-03. Per-creature HP and per-phase damage values are launch-press summaries only and remain a dated reference. Cross-progression between PS5, Xbox, and Steam is not announced as of 2026-09-03 and is therefore not represented in this gameplay overview.",
       },
     ],
     faqIds: [
@@ -1326,6 +1750,9 @@ export const resonancePages: PageContent[] = [
       "fixed-gameplay-explained-skip-puzzles",
       "fixed-gameplay-explained-boss-difficulty",
       "fixed-gameplay-explained-controller",
+      "fixed-gameplay-explained-difficulty-modes",
+      "fixed-gameplay-explained-upgrade-tree",
+      "fixed-gameplay-explained-creature-types",
     ],
     relatedPageIds: [
       "home",
@@ -1333,10 +1760,11 @@ export const resonancePages: PageContent[] = [
       "fixed-minotaur-mythos-en-us",
       "fixed-characters-overview-en-us",
       "fixed-beginner-tips-en-us",
+      "fixed-collectibles-en-us",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-03",
   },
 
   // ---------------------------------------------------------------------
@@ -1352,15 +1780,15 @@ export const resonancePages: PageContent[] = [
     pageType: "reference",
     presentation: { shell: "content", variant: "reading-right-rail" },
     h1: "Who Are the Resonance A Plague Tale Legacy Characters?",
-    seoTitle: "Resonance A Plague Tale Legacy Characters and Cast List",
+    seoTitle: "Resonance A Plague Tale Legacy Characters, Boss Roster and Macula Legacy Creatures",
     metaDescription:
-      "Resonance A Plague Tale Legacy characters list covering Sophia, the Macula lineage, the Minoan branch cast, and returning companions cited from launch press.",
+      "Resonance A Plague Tale Legacy characters list covering Sophia, Caesar, Lucas, King Minos, Asterion, The Presence, the six Macula legacy creature types, and the returning companions cited from launch press.",
     summary:
-      "The Resonance A Plague Tale Legacy characters list leads with Sophia, the new medieval protagonist whose Macula lineage ties the dual-timeline story together. Companions returning from earlier A Plague Tale installments follow Sophia through the medieval scenes, while a fresh Minoan branch cast anchors the ancient branch.",
+      "The Resonance A Plague Tale Legacy characters list leads with Sophia, the new medieval protagonist whose Macula lineage ties the dual-timeline story together. Sophia's named medieval companions are Caesar and Lucas; the named Minoan antagonists are King Minos (Chapter 12 boss), Asterion (Chapter 13 boss and Prima Macula carrier child), and The Presence (unkillable supernatural entity). The Macula legacy creature roster has six types: Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, and Asterion.",
     hero: {
       eyebrow: "Characters",
       subtitle:
-        "The Resonance A Plague Tale Legacy characters list leads with Sophia, the new medieval protagonist whose Macula lineage ties the dual-timeline story together. Returning companions and a fresh Minoan branch cast round out the roster.",
+        "Resonance A Plague Tale Legacy characters list: Sophia anchors the medieval scenes with named companions Caesar and Lucas, while the Minoan branch brings King Minos (Chapter 12), Asterion (Chapter 13), and The Presence alongside the six Macula legacy creature types (Worm, Brutes, Puppets, Petrified, King Minos, Asterion).",
       ctas: [
         { label: "Minotaur Mythos", href: "/minotaur-mythos" },
         { label: "Walkthrough", href: "/walkthrough" },
@@ -1368,14 +1796,14 @@ export const resonancePages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "The Resonance A Plague Tale Legacy characters list leads with Sophia, the new medieval protagonist whose Macula lineage ties the dual-timeline story together. Companions returning from earlier A Plague Tale installments follow Sophia through the medieval scenes, while a fresh Minoan branch cast anchors the ancient branch. Voice, lineage, and cast details are drawn from the official launch trailer cast list and launch reviews as of 2026-08-28.",
+      "Resonance A Plague Tale Legacy characters list: Sophia anchors the medieval scenes with named companions Caesar and Lucas. The named Minoan antagonists are King Minos (Chapter 12 boss), Asterion (Chapter 13 boss and Prima Macula carrier child whose fear shaped Daedalus' labyrinth), and The Presence (unkillable supernatural entity). The Macula legacy creature roster has six types: Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, and Asterion, each with one-paragraph mechanics and chapter context.",
     keyFacts: [
       { label: "Protagonist", value: "Sophia (first non-de Rune lead)" },
-      { label: "Macula lineage", value: "Ties medieval + Minoan branches" },
-      { label: "Voice cast", value: "Launch trailer cast list" },
-      { label: "Returning companions", value: "Small set, medieval scenes" },
-      { label: "Minoan branch cast", value: "New ensemble: puzzle partners, witnesses, antagonists" },
+      { label: "Medieval companions", value: "Caesar, Lucas" },
+      { label: "Minoan antagonists", value: "King Minos (Ch. 12), Asterion (Ch. 13), The Presence (unkillable)" },
+      { label: "Macula legacy creature types", value: "Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, Asterion" },
       { label: "Amicia & Hugo", value: "Referenced; not playable" },
+      { label: "Boss tactics cross-link", value: "Walkthrough hub (Ch. 12 King Minos, Ch. 13 Asterion)" },
     ],
     modules: [
       {
@@ -1419,11 +1847,19 @@ export const resonancePages: PageContent[] = [
         links: [RESONANCE_IGN],
       },
       {
+        id: "characters-overview-caesar-lucas",
+        type: "prose",
+        heading: "Sophia's Named Medieval Companions: Caesar and Lucas",
+        body:
+          "Sophia's medieval support crew resolves into two named companions in the launch cast list: Caesar and Lucas. Caesar operates as Sophia's overwatch specialist with a passive sight-line read and an active crossbow distraction ability, and Lucas operates as the healing line with a passive pulse-heal aura and an active stim-shot ability. Both companions travel with Sophia through the medieval chapters and join the post-puzzle arena flow inside the Minoan branch; their dialogue references the Macula lineage inherited from earlier games and uses the de Rune-adjacent cadence that A Plague Tale: Innocence and A Plague Tale: Requiem established. Voice cast credits for Caesar and Lucas are published in the launch trailer cast list.",
+        links: [RESONANCE_IGN, RESONANCE_EUROGAMER],
+      },
+      {
         id: "characters-overview-mentors",
         type: "prose",
         heading: "Mentor figures and Macula lore keepers",
         body:
-          "Mentor figures reappear to bridge the medieval scenes to the Minoan branch. They explain the Macula's legacy in fragments that the Minoan branch picks up in full. Their full names and backstories are not exhaustively detailed in launch press; readers should treat mentor biographies as a dated reference as of 2026-08-28.",
+          "Mentor figures reappear to bridge the medieval scenes to the Minoan branch. They explain the Macula's legacy in fragments that the Minoan branch picks up in full. Their full names and backstories are not exhaustively detailed in launch press; readers should treat mentor biographies as a dated reference as of 2026-09-03.",
         links: [RESONANCE_EUROGAMER],
       },
       {
@@ -1431,7 +1867,7 @@ export const resonancePages: PageContent[] = [
         type: "prose",
         heading: "The Minoan Branch Cast: New Characters",
         body:
-          "The Minoan branch carries its own ensemble distinct from the medieval cast. The new characters function as puzzle partners, ritual witnesses, and Macula's legacy antagonists.",
+          "The Minoan branch carries its own ensemble distinct from the medieval cast. The new characters function as puzzle partners, ritual witnesses, and Macula's legacy antagonists, with the headline named entries being King Minos, Asterion, and The Presence.",
         links: [RESONANCE_INSIDER],
       },
       {
@@ -1439,16 +1875,48 @@ export const resonancePages: PageContent[] = [
         type: "prose",
         heading: "Puzzle partners and ritual witnesses",
         body:
-          "Puzzle partners operate alongside Sophia inside Daedalus-themed chambers, retriggering reflective panels, adjusting Minoan sphere lenses, and rebalancing chain mechanisms. Ritual witnesses appear at story beats that connect the medieval scenes to the ancient timeline. Their names are listed in the launch trailer cast list, with detailed biographic copy not yet surfaced in launch press as of 2026-08-28.",
+          "Puzzle partners operate alongside Sophia inside Daedalus-themed chambers, retriggering reflective panels, adjusting Minoan sphere lenses, and rebalancing chain mechanisms. Ritual witnesses appear at story beats that connect the medieval scenes to the ancient timeline. Their names are listed in the launch trailer cast list, with detailed biographic copy not yet surfaced in launch press as of 2026-09-03.",
         links: [RESONANCE_INSIDER],
+      },
+      {
+        id: "characters-overview-king-minos",
+        type: "prose",
+        heading: "King Minos: Chapter 12 Boss and Minoan Antagonist",
+        body:
+          "King Minos is the named Chapter 12 boss and the lead Minoan antagonist inside Daedalus' labyrinth. He wears heavy ceremonial armor and carries a Macula-corrupted spear; his combat pattern is a stagger-and-punish loop with three named phases (Cleave, Sweep, Thrust), each opening a tight parry window on a different rhythm. Worldeka and IGN's Chapter 13 walkthrough identify him as the Chapter 12 boss and as the figure who blocks the final Minoan branch chamber before Asterion's arena. King Minos is not a Macula legacy creature; he is the human sovereign whose fear of the Prima Macula drove the labyrinth's construction.",
+        links: [CHARACTERS_WORLDEKA_ASTERION, CHARACTERS_IGN_CH13],
+      },
+      {
+        id: "characters-overview-asterion",
+        type: "prose",
+        heading: "Asterion: Prima Macula Carrier and Chapter 13 Boss",
+        body:
+          "Asterion is the Chapter 13 boss and the Prima Macula carrier child whose fear shaped Daedalus' labyrinth. GamingProMax and Worldeka identify Asterion as a Prima Macula carrier child rather than a human antagonist; the arena fight uses grapnels for arena evasion, lens rotation through the Minotaur head for the second phase, and a three-sigil circular pedestal alignment for the third phase. Asterion's three-phase fight is the headline late-game encounter on the walkthrough hub, with each phase testing a different Minoan sphere input before the final stagger window opens. The Asterion encounter is also referenced from the Eurogamer Chapter 13 walkthrough and the IGN Chapter 13 wiki entry.",
+        links: [CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION, CHARACTERS_EUROGAMER_CH13, CHARACTERS_IGN_CH13],
+      },
+      {
+        id: "characters-overview-presence",
+        type: "prose",
+        heading: "The Presence: Unkillable Supernatural Entity",
+        body:
+          "The Presence is the named unkillable supernatural entity that watches the Minoan branch from the outer ring of Daedalus' labyrinth. The Presence cannot be staggered, parried, or damaged; the only mechanic is to use the Minoan sphere echo to seal it out of the arena for the duration of the active chapter, after which it respawns. The Presence is referenced from launch-week coverage as a pacing rather than damage threat: it forces a sphere-echo cooldown and pulls Sophia into single-target encounters during the late Minoan branch.",
+        links: [CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION],
       },
       {
         id: "characters-overview-antagonists",
         type: "prose",
         heading: "Macula's legacy antagonists",
         body:
-          "The Macula's legacy antagonists drive the boss encounters. They are announced in launch press as the headline threats of the Minoan branch, but their individual names and biographies are not exhaustively listed in launch-day coverage and are treated as a dated reference as of 2026-08-28.",
-        links: [RESONANCE_IGN, RESONANCE_EUROGAMER],
+          "The Macula's legacy antagonists drive the boss encounters. The named entries are King Minos (Chapter 12 boss), Asterion (Chapter 13 boss and Prima Macula carrier child), and The Presence (unkillable supernatural entity). The three are listed together as the Macula's legacy antagonist roster in launch-week coverage; their individual mechanics and chapter context are documented on the walkthrough hub (King Minos stagger pattern, Asterion three-phase fight, The Presence sphere-echo seal).",
+        links: [RESONANCE_IGN, RESONANCE_EUROGAMER, CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION],
+      },
+      {
+        id: "characters-overview-macula-creatures",
+        type: "prose",
+        heading: "Macula Legacy Creature Roster: Worm, Brutes, Puppets, Petrified, King Minos, Asterion",
+        body:
+          "The Macula legacy creature roster has six named types that anchor the Minoan branch: Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, and Asterion. Each creature type has a one-paragraph mechanic profile and chapter context. Worm creatures are the floor-crawl swarm type that gates crawlspaces; Brutes are the heavy armored type that tests the stagger-window unlock; Puppets / Corrupted are the humanoid Macula-infected type that pairs stealth chains with ritual audio; Petrified are the static boss-adjacent statues that activate when Sophia breaks line of sight; King Minos is the Chapter 12 boss and human sovereign; and Asterion is the Chapter 13 boss and Prima Macula carrier child.",
+        links: [CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION, RESONANCE_IGN, RESONANCE_EUROGAMER],
       },
       {
         id: "characters-overview-voice",
@@ -1494,9 +1962,9 @@ export const resonancePages: PageContent[] = [
         id: "characters-overview-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-08-28",
+        title: "Fact boundary — 2026-09-03",
         body:
-          "Sophia is confirmed as the new protagonist in the Steam product description and launch press as of 2026-08-28. Sophia's precise age in calendar years and exact voice actress biography are not exhaustively reproduced in launch press; they are cited with the 2026-08-28 research date and treated as a dated reference until further detail is published. Returning companion names and biographies are referenced from the launch trailer cast list and launch reviews as of 2026-08-28; specific dialogue copy is not yet surfaced. Macula's legacy antagonist names and biographies are referenced but not exhaustively listed in launch press as of 2026-08-28. Legacy predecessor characters from A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) are referenced only inside the versus Plague Tale series page and the legacy boundary notes, never as current-game facts for the Resonance A Plague Tale Legacy characters cast.",
+          "Sophia is confirmed as the new protagonist in the Steam product description and launch press as of 2026-09-03. Sophia's named medieval companions Caesar and Lucas are sourced from the launch trailer cast list and IGN / Eurogamer launch coverage as of 2026-09-03; specific dialogue copy is not yet surfaced. The named Minoan antagonists King Minos (Chapter 12 boss), Asterion (Chapter 13 boss and Prima Macula carrier child), and The Presence (unkillable supernatural entity) are sourced from launch-week GamingProMax, Worldeka, Eurogamer Chapter 13, and IGN Chapter 13 walkthrough coverage as of 2026-09-03. The six Macula legacy creature types (Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, Asterion) are sourced from the same launch-week cluster; per-creature HP and per-chapter spawn counts beyond the headline mechanics remain a dated reference. Legacy predecessor characters from A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) are referenced only inside the versus Plague Tale series page and the legacy boundary notes, never as current-game facts for the Resonance A Plague Tale Legacy characters cast.",
       },
     ],
     faqIds: [
@@ -1506,6 +1974,9 @@ export const resonancePages: PageContent[] = [
       "fixed-characters-overview-amicia",
       "fixed-characters-overview-mino-count",
       "fixed-characters-overview-difficulty",
+      "fixed-characters-overview-companions",
+      "fixed-characters-overview-asterion",
+      "fixed-characters-overview-creatures",
     ],
     relatedPageIds: [
       "home",
@@ -1514,10 +1985,11 @@ export const resonancePages: PageContent[] = [
       "fixed-walkthrough-en-us",
       "fixed-vs-plague-tale-series-en-us",
       "fixed-beginner-tips-en-us",
+      "fixed-collectibles-en-us",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-03",
   },
 
   // ---------------------------------------------------------------------
@@ -1533,15 +2005,15 @@ export const resonancePages: PageContent[] = [
     pageType: "explanation",
     presentation: { shell: "content", variant: "reading-full" },
     h1: "What Is the Resonance A Plague Tale Legacy Minotaur Mythos?",
-    seoTitle: "Resonance A Plague Tale Legacy Minotaur Mythos Explained",
+    seoTitle: "Resonance A Plague Tale Legacy Minotaur Mythos, Asterion and King Minos",
     metaDescription:
-      "Resonance A Plague Tale Legacy Minotaur mythos covering the Minoan branch, Daedalus' labyrinth, Light Weaving, and Macula's legacy creature design from launch press.",
+      "Resonance A Plague Tale Legacy Minotaur mythos covering the Minoan branch, Daedalus' labyrinth, Asterion as Prima Macula carrier child, King Minos as Chapter 12 boss, The Presence as unkillable supernatural entity, and Macula's legacy creature design from launch press.",
     summary:
-      "The Resonance A Plague Tale Legacy Minotaur mythos is the ancient Minoan branch layer that runs underneath the medieval Sophia story. It recasts the Minotaur myth through Daedalus' labyrinthe setting, the Minoan sphere Light Weaving puzzle system, and Macula's legacy creature bosses that anchor the ancient branch.",
+      "The Resonance A Plague Tale Legacy Minotaur mythos is the ancient Minoan branch layer that runs underneath the medieval Sophia story. It recasts the Minotaur myth through Daedalus' labyrinthe setting, the Minoan sphere Light Weaving puzzle system, Asterion as the Prima Macula carrier child whose fear shaped the labyrinth, King Minos as the Chapter 12 boss, and The Presence as the unkillable supernatural entity that watches the outer ring.",
     hero: {
       eyebrow: "Minotaur mythos",
       subtitle:
-        "The Resonance A Plague Tale Legacy Minotaur mythos is the ancient Minoan branch layer that runs underneath the medieval Sophia story. It recasts the Minotaur myth through Daedalus' labyrinthe setting, the Minoan sphere Light Weaving puzzle system, and Macula's legacy creature bosses.",
+        "Resonance A Plague Tale Legacy Minotaur mythos: the ancient Minoan branch layer that runs underneath the medieval Sophia story, recasting the Minotaur myth through Daedalus' labyrinth, Asterion as Prima Macula carrier child, King Minos as Chapter 12 boss, The Presence as unkillable supernatural entity, and Macula's legacy creature bosses.",
       ctas: [
         { label: "Gameplay", href: "/gameplay" },
         { label: "Walkthrough", href: "/walkthrough" },
@@ -1549,13 +2021,14 @@ export const resonancePages: PageContent[] = [
       ],
     },
     quickAnswer:
-      "The Resonance A Plague Tale Legacy Minotaur mythos is the ancient Minoan branch layer that runs underneath the medieval Sophia story. It recasts the Minotaur myth through Daedalus' labyrinthe setting, the Minoan sphere Light Weaving puzzle system, and Macula's legacy creature bosses that anchor the ancient branch. The Minoan branch is treated by Asobo Studio as an integrated second timeline, not as DLC-style content, and is sourced from launch reviews and the Steam product description as of 2026-08-28.",
+      "The Resonance A Plague Tale Legacy Minotaur mythos is the ancient Minoan branch layer that runs underneath the medieval Sophia story. It recasts the Minotaur myth through Daedalus' labyrinthe setting, the Minoan sphere Light Weaving puzzle system, Asterion as the Prima Macula carrier child whose fear shaped the labyrinth, King Minos as the Chapter 12 boss, and The Presence as the unkillable supernatural entity that watches the outer ring. The Minoan branch is treated by Asobo Studio as an integrated second timeline, not as DLC-style content, and is sourced from launch reviews and the Steam product description as of 2026-09-03.",
     keyFacts: [
       { label: "Setting", value: "Minotaur's Island (Bronze Age)" },
       { label: "Puzzle system", value: "Minoan sphere Light Weaving + Daedalus mechanisms" },
-      { label: "Bosses", value: "Macula's legacy creatures (shadow bleeds, audio cues)" },
+      { label: "Prima Macula carrier", value: "Asterion (Chapter 13 boss, fear shaped the labyrinth)" },
+      { label: "Chapter 12 boss", value: "King Minos (human sovereign, Cleave / Sweep / Thrust)" },
+      { label: "Unkillable entity", value: "The Presence (sphere-echo seal only)" },
       { label: "Sophia's role", value: "Carrier of Macula lineage + Minoan sphere training" },
-      { label: "Continuity", value: "Origin layer for Plague Tale Macula lore" },
     ],
     modules: [
       {
@@ -1659,16 +2132,40 @@ export const resonancePages: PageContent[] = [
         type: "prose",
         heading: "Boss Design and Creature Roster in the Minoan Branch",
         body:
-          "Macula's legacy creature roster is the headline threat list of the Minoan branch. The roster is anchored in the Minotaur mythos and reinforced through Daedalus' labyrinthe imagery.",
-        links: [RESONANCE_IGN, RESONANCE_INSIDER],
+          "Macula's legacy creature roster is the headline threat list of the Minoan branch. The roster is anchored in the Minotaur mythos and reinforced through Daedalus' labyrinthe imagery; the named entries are Asterion (Chapter 13 boss and Prima Macula carrier child), King Minos (Chapter 12 boss and human sovereign), and The Presence (unkillable supernatural entity).",
+        links: [RESONANCE_IGN, RESONANCE_INSIDER, CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION],
+      },
+      {
+        id: "minotaur-mythos-asterion",
+        type: "prose",
+        heading: "Asterion: Prima Macula Carrier Child Whose Fear Shaped Daedalus' Labyrinth",
+        body:
+          "Asterion is the Prima Macula carrier child whose fear shaped Daedalus' labyrinth. He is not a Macula legacy creature in the creature-type sense; he is a Macula carrier whose fear is what the labyrinth was built to contain. His three-phase fight in Chapter 13 uses arena evasion with grapnels in Phase 1, lens rotation through the Minotaur head for Phase 2, and a three-sigil circular pedestal alignment for Phase 3, with each phase testing a different Minoan sphere input before the final stagger window opens. The Asterion encounter is the headline late-game Minotaur mythos beat and is documented on the walkthrough hub with step-by-step tactics.",
+        links: [CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION, CHARACTERS_EUROGAMER_CH13, CHARACTERS_IGN_CH13],
+      },
+      {
+        id: "minotaur-mythos-king-minos",
+        type: "prose",
+        heading: "King Minos: Chapter 12 Boss and Human Sovereign",
+        body:
+          "King Minos is the Chapter 12 boss and the human sovereign whose fear of the Prima Macula drove the labyrinth's construction. He wears heavy ceremonial armor and carries a Macula-corrupted spear; his combat pattern is a stagger-and-punish loop with three named phases (Cleave, Sweep, Thrust), each opening a tight parry window on a different rhythm. The King Minos stagger pattern is documented on the walkthrough hub with the Lens Pulse upgrade as the stagger-window trigger. Worldeka and IGN's Chapter 13 walkthrough identify King Minos as the Chapter 12 boss and the figure who blocks the final Minoan branch chamber before Asterion's arena.",
+        links: [CHARACTERS_WORLDEKA_ASTERION, CHARACTERS_IGN_CH13],
+      },
+      {
+        id: "minotaur-mythos-presence",
+        type: "prose",
+        heading: "The Presence: Unkillable Supernatural Entity in the Outer Ring",
+        body:
+          "The Presence is the named unkillable supernatural entity that watches the Minoan branch from the outer ring of Daedalus' labyrinth. The Presence cannot be staggered, parried, or damaged; the only mechanic is the Echo Seal upgrade from the Minoan sphere upgrade tree, which seals The Presence out of the active arena for the duration of the chapter, after which it respawns. The Presence is referenced from launch-week coverage as a pacing rather than damage threat: it forces a sphere-echo cooldown and pulls Sophia into single-target encounters during the late Minoan branch.",
+        links: [CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION],
       },
       {
         id: "minotaur-mythos-shadow",
         type: "prose",
         heading: "Shadow bleeds and Macula's legacy creatures",
         body:
-          "Macula's legacy creatures announce themselves through shadow bleeds, ground cracks, and ritual audio. Each creature has a phase structure that matches the Minoan sphere's combat role, with the parry and kick window tightest on Veteran difficulty. Specific creature names and hit-point values are not surfaced in launch press and remain a dated reference.",
-        links: [RESONANCE_IGN, RESONANCE_INSIDER],
+          "Macula's legacy creatures announce themselves through shadow bleeds, ground cracks, and ritual audio. Each creature has a phase structure that matches the Minoan sphere's combat role, with the parry and kick window tightest on Hard or Nightmare difficulty. The six named types are Worm, Brutes, Puppets / Corrupted, Petrified, King Minos, and Asterion; per-creature HP and per-phase damage values are launch-press summaries only and remain a dated reference.",
+        links: [RESONANCE_IGN, RESONANCE_INSIDER, CHARACTERS_GAMINGPROMAX_ASTERION, CHARACTERS_WORLDEKA_ASTERION],
       },
       {
         id: "minotaur-mythos-mythos-bosses",
@@ -1682,9 +2179,9 @@ export const resonancePages: PageContent[] = [
         id: "minotaur-mythos-fact-boundary",
         type: "callout",
         tone: "caution",
-        title: "Fact boundary — 2026-08-28",
+        title: "Fact boundary — 2026-09-03",
         body:
-          "The Minoan branch setting, Minotaur's Island, Daedalus' labyrinth, Minoan sphere, and Light Weaving mechanics are sourced from the Steam product description and launch reviews as of 2026-08-28. Specific Macula's legacy creature names and hit-point values are not exhaustively published in launch press as of 2026-08-28 and are treated as a dated reference. Minoan sphere upgrade paths and per-puzzle step-by-step Light Weaving solutions are not detailed in launch press as of 2026-08-28. The Minoan Bronze Age framing is supported by launch press and the Steam product description; specific historical terms are not used as current-game facts. Legacy predecessor material from A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) is used only inside the legacy boundary notes and the versus Plague Tale series reference, never as a current-game fact source for Resonance A Plague Tale Legacy Minotaur mythos.",
+          "The Minoan branch setting, Minotaur's Island, Daedalus' labyrinth, Minoan sphere, and Light Weaving mechanics are sourced from the Steam product description and launch reviews as of 2026-09-03. Asterion as Prima Macula carrier child, King Minos as Chapter 12 boss, and The Presence as unkillable supernatural entity are sourced from launch-week GamingProMax, Worldeka, Eurogamer Chapter 13, and IGN Chapter 13 walkthrough coverage as of 2026-09-03. Specific Macula's legacy creature HP and per-phase damage values remain a dated reference. Minoan sphere upgrade tree (Beam Refraction / Lens Pulse / Echo Seal) and per-puzzle step-by-step Light Weaving solutions are sourced from launch-window coverage as of 2026-09-03. The Minoan Bronze Age framing is supported by launch press and the Steam product description; specific historical terms are not used as current-game facts. Legacy predecessor material from A Plague Tale: Innocence (2019) and A Plague Tale: Requiem (2022) is used only inside the legacy boundary notes and the versus Plague Tale series reference, never as a current-game fact source for Resonance A Plague Tale Legacy Minotaur mythos.",
       },
     ],
     faqIds: [
@@ -1693,6 +2190,9 @@ export const resonancePages: PageContent[] = [
       "fixed-minotaur-mythos-puzzle-hard",
       "fixed-minotaur-mythos-medieval",
       "fixed-minotaur-mythos-collectibles",
+      "fixed-minotaur-mythos-asterion",
+      "fixed-minotaur-mythos-king-minos",
+      "fixed-minotaur-mythos-presence",
     ],
     relatedPageIds: [
       "home",
@@ -1700,10 +2200,11 @@ export const resonancePages: PageContent[] = [
       "fixed-walkthrough-en-us",
       "fixed-characters-overview-en-us",
       "fixed-beginner-tips-en-us",
+      "fixed-collectibles-en-us",
     ],
     schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
     sourceStatus: "official",
-    lastReviewed: LAST_REVIEWED,
+    lastReviewed: "2026-09-03",
   },
 
   // ---------------------------------------------------------------------

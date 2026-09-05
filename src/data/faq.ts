@@ -329,6 +329,36 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+  {
+    id: "fixed-review-roundup-ign-score",
+    question: "What score did IGN give Resonance: A Plague Tale Legacy?",
+    answer:
+      "IGN's launch review by Travis Northup gives Resonance: A Plague Tale Legacy a 6/10. The IGN verdict sits at the low end of the launch cluster and frames the action-adventure reframing as a step away from the franchise's stealth roots, even as the dynamic melee loop and the Minoan sphere Light Weaving puzzles are credited.",
+    pageIds: ["fixed-review-roundup-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-review-roundup-high-cluster",
+    question: "Which launch outlets gave Resonance: A Plague Tale Legacy the highest scores?",
+    answer:
+      "The launch high-end cluster is PlayStation Universe 95/100, TheSixthAxis 9/10 (90/100), Pure Xbox 9/10 (90/100), and Game Informer 8.5/10 (85/100). The cluster treats the game as a confident action-adventure spinoff on combat readability and puzzle design terms.",
+    pageIds: ["fixed-review-roundup-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-review-roundup-mixed-cluster",
+    question: "Which launch outlets gave Resonance: A Plague Tale Legacy the lowest scores?",
+    answer:
+      "The launch mixed cluster is IGN 6/10 (Travis Northup), Eurogamer 60/100, and Game Rant 7/10. The mixed-cluster outlets share the framing that the action-adventure reframing is a step away from the slower stealth cadence of A Plague Tale: Innocence and A Plague Tale: Requiem.",
+    pageIds: ["fixed-review-roundup-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 
   // --- metacritic-score -------------------------------------------------
   {
@@ -366,6 +396,26 @@ export const faqItems: FAQItem[] = [
     question: "Is the Rock Paper Shotgun review counted in the Metacritic score?",
     answer:
       "Rock Paper Shotgun does not use a numeric review scale, so any aggregator number attributed to RPS should be treated as a paraphrase rather than a numeric entry. The qualitative verdict is attributed to the outlet directly in the review roundup.",
+    pageIds: ["fixed-metacritic-score-en-us"],
+    category: "release",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-metacritic-score-pc",
+    question: "What is the PC Metacritic score for Resonance: A Plague Tale Legacy?",
+    answer:
+      "The PC Metacritic critic score sits at 85 from approximately 36 critic reviews as of 2026-09-03. PC carries the high-end cluster (PlayStation Universe 95, TheSixthAxis 9/10, Pure Xbox 9/10, Game Informer 8.5/10) alongside the mixed cluster (IGN 6/10, Eurogamer 60, Game Rant 7/10).",
+    pageIds: ["fixed-metacritic-score-en-us"],
+    category: "release",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-metacritic-score-opencritic",
+    question: "What is the OpenCritic stance on Resonance: A Plague Tale Legacy?",
+    answer:
+      "The OpenCritic chart for Resonance: A Plague Tale Legacy tracks a recommended-majority aggregate stance with a not-recommended minority tied to the IGN 6/10, Eurogamer 60 and Game Rant 7/10 cluster. OpenCritic does not weight per-outlet scores; treat the chart as a distribution rather than a weighted average.",
     pageIds: ["fixed-metacritic-score-en-us"],
     category: "release",
     schemaEligible: true,
@@ -547,6 +597,36 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+  {
+    id: "fixed-gameplay-explained-difficulty-modes",
+    question: "How many difficulty modes does Resonance A Plague Tale Legacy have?",
+    answer:
+      "The published difficulty set is the five-level Narrative / Easy / Normal / Hard / Nightmare ladder. The older Story / Veteran / Curator framing is a launch-window paraphrase and has been replaced with the published set. Nightmare is the unlock-able mode that gates the combat Silver trophy 'Untouchable'.",
+    pageIds: ["fixed-gameplay-explained-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-gameplay-explained-upgrade-tree",
+    question: "What is the Minoan sphere upgrade tree?",
+    answer:
+      "The Minoan sphere upgrade tree has three named abilities: Beam Refraction (Chapter 2, redirect a beam through two reflective panels), Lens Pulse (Chapter 6, short stun pulse that unlocks the chain sword stagger window on Brutes), and Echo Seal (Chapter 10, seal The Presence out of the active arena for the chapter).",
+    pageIds: ["fixed-gameplay-explained-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-gameplay-explained-creature-types",
+    question: "What creature types appear in Resonance A Plague Tale Legacy?",
+    answer:
+      "The Macula legacy creature roster has six named types: Worm (floor-crawl swarm), Brutes (heavy armored), Puppets / Corrupted (humanoid Macula-infected), Petrified (static boss-adjacent statues), King Minos (Chapter 12 boss and human sovereign), and Asterion (Chapter 13 boss and Prima Macula carrier child).",
+    pageIds: ["fixed-gameplay-explained-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 
   // --- characters-overview ----------------------------------------------
   {
@@ -609,6 +689,36 @@ export const faqItems: FAQItem[] = [
     schemaEligible: true,
     sourceStatus: "official",
   },
+  {
+    id: "fixed-characters-overview-companions",
+    question: "Who are Sophia's medieval companions in Resonance A Plague Tale Legacy?",
+    answer:
+      "Sophia's named medieval companions are Caesar (overwatch specialist with crossbow distraction) and Lucas (healing line with stim-shot). Both travel with Sophia through the medieval chapters and join the post-puzzle arena flow inside the Minoan branch; their voice cast credits are in the launch trailer cast list.",
+    pageIds: ["fixed-characters-overview-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-characters-overview-asterion",
+    question: "Who is Asterion in Resonance A Plague Tale Legacy?",
+    answer:
+      "Asterion is the Chapter 13 boss and the Prima Macula carrier child whose fear shaped Daedalus' labyrinth. His three-phase fight uses grapnels for arena evasion in Phase 1, lens rotation through the Minotaur head for Phase 2, and a three-sigil circular pedestal alignment for Phase 3.",
+    pageIds: ["fixed-characters-overview-en-us", "fixed-minotaur-mythos-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-characters-overview-creatures",
+    question: "What are the six Macula legacy creature types in Resonance A Plague Tale Legacy?",
+    answer:
+      "The Macula legacy creature roster has six named types: Worm (floor-crawl swarm), Brutes (heavy armored), Puppets / Corrupted (humanoid Macula-infected), Petrified (static boss-adjacent statues), King Minos (Chapter 12 boss and human sovereign), and Asterion (Chapter 13 boss and Prima Macula carrier child).",
+    pageIds: ["fixed-characters-overview-en-us", "fixed-gameplay-explained-en-us"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
 
   // --- minotaur-mythos ---------------------------------------------------
   {
@@ -655,7 +765,37 @@ export const faqItems: FAQItem[] = [
     id: "fixed-minotaur-mythos-collectibles",
     question: "Are there collectibles tied to the Minotaur mythos?",
     answer:
-      "The launch design includes puzzle partners and ritual witnesses that anchor story collectibles in the Minotaur mythos. Specific collectible counts are not announced as of 2026-08-28 and are treated as a dated reference.",
+      "Yes. The Minotaur mythos anchors five Theseus Echoes (Silver In the Name of My Kin) and per-chapter Relic / Blade / Charm pickups that gate the four Gold collectible trophies. The full per-chapter breakdown lives on the /collectibles/ hub.",
+    pageIds: ["fixed-minotaur-mythos-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-minotaur-mythos-asterion",
+    question: "Who is Asterion in the Minotaur mythos?",
+    answer:
+      "Asterion is the Prima Macula carrier child whose fear shaped Daedalus' labyrinth, and the Chapter 13 boss. His three-phase fight uses arena evasion with grapnels, lens rotation through the Minotaur head, and a three-sigil circular pedestal alignment.",
+    pageIds: ["fixed-minotaur-mythos-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-minotaur-mythos-king-minos",
+    question: "Who is King Minos in the Minotaur mythos?",
+    answer:
+      "King Minos is the Chapter 12 boss and the human sovereign whose fear of the Prima Macula drove the labyrinth's construction. He uses a three-phase Cleave / Sweep / Thrust pattern, with the stagger window tied to the Lens Pulse upgrade from the Minoan sphere upgrade tree.",
+    pageIds: ["fixed-minotaur-mythos-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-minotaur-mythos-presence",
+    question: "What is The Presence in the Minotaur mythos?",
+    answer:
+      "The Presence is the unkillable supernatural entity that watches the Minoan branch from the outer ring of Daedalus' labyrinth. It cannot be staggered, parried, or damaged; the only mechanic is the Echo Seal upgrade from the Minoan sphere upgrade tree, which seals The Presence out of the active arena for the duration of the chapter.",
     pageIds: ["fixed-minotaur-mythos-en-us"],
     category: "wiki",
     schemaEligible: true,
@@ -906,6 +1046,48 @@ export const faqItems: FAQItem[] = [
       "No. The Minoan sphere, Light Weaving, and the Minoan branch are unique to Resonance A Plague Tale Legacy. None of these systems appear in A Plague Tale: Innocence (2019) or A Plague Tale: Requiem (2022). Legacy predecessor mechanics from those games are referenced only as comparison points.",
     pageIds: ["fixed-vs-plague-tale-series-en-us"],
     category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+
+  // --- collectibles-hub --------------------------------------------------
+  {
+    id: "fixed-collectibles-totals",
+    question: "How many collectibles are there in Resonance A Plague Tale Legacy?",
+    answer:
+      "The four collectible families total 37 Relics of the Present and Past (Hoarder Gold), 8 Blades from Heroes' Graves (Plunderer Gold), 30 Charms (Superstitious Gold), and 5 Theseus Echoes (In the Name of My Kin Silver). Resonance Points are a separate pickup family that gates the Like a Warrior Gold at 165 points within a single save file.",
+    pageIds: ["fixed-collectibles-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-collectibles-chapter-select",
+    question: "Can Chapter Select finish the Resonance A Plague Tale Legacy collectible trophies?",
+    answer:
+      "Chapter Select cleanup finishes the Hoarder, Plunderer, and Superstitious Gold trophies because Relics, Blades, and Charms transfer across saves. Like a Warrior (165 Resonance Points) does NOT transfer via Chapter Select, which is why Like a Warrior is the only confirmed missable trophy and requires either a careful first sweep or a fresh second playthrough.",
+    pageIds: ["fixed-collectibles-en-us"],
+    category: "wiki",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-collectibles-heritage-pack",
+    question: "Does the Heritage Pack add new collectibles to Resonance A Plague Tale Legacy?",
+    answer:
+      "The Heritage Pack DLC adds the Minoan Sword (a Blade with a third-hit combo stun window) and Alec's Pendant (a Charm-scaling accessory that boosts the stats of all your Charms). It does not change the 8-Blade / 30-Charm per-chapter totals but adds the Minoan Sword to the inventory via pre-order redemption rather than via a per-chapter pickup.",
+    pageIds: ["fixed-collectibles-en-us"],
+    category: "release",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "fixed-collectibles-theseus",
+    question: "What are Theseus Echoes in Resonance A Plague Tale Legacy?",
+    answer:
+      "Theseus Echoes are a 5-item collectible family anchored to the Minoan branch chapters; collecting all five unlocks the Silver In the Name of My Kin trophy. Each Echo unlocks as Sophia completes the named ritual witness scene for the chapter. In the Name of My Kin is reachable on a single playthrough by sweeping each Minoan branch chapter.",
+    pageIds: ["fixed-collectibles-en-us"],
+    category: "wiki",
     schemaEligible: true,
     sourceStatus: "official",
   },

@@ -12,10 +12,12 @@ export const primaryNavigation: LocalizedNavigationItem[] = [
   { href: "/platforms", labels: { "en-US": "Platforms" }, description: { "en-US": "PS5, PS5 Pro, Xbox Series X|S, Steam and cross-progression status." } },
   { href: "/editions", labels: { "en-US": "Editions" }, description: { "en-US": "Standard, Collector's edition and Heritage Pack DLC contents." } },
   { href: "/gameplay", labels: { "en-US": "Gameplay" }, description: { "en-US": "Dual timelines, dynamic melee, Light Weaving, Macula exposure." } },
-  { href: "/characters", labels: { "en-US": "Characters" }, description: { "en-US": "Sophia, returning cast, and Minoan branch ensemble." } },
+  { href: "/characters", labels: { "en-US": "Characters" }, description: { "en-US": "Sophia, Caesar, Lucas, King Minos, Asterion, The Presence, Macula legacy creatures." } },
   { href: "/walkthrough", labels: { "en-US": "Walkthrough" }, description: { "en-US": "Medieval and Minotaur's Island chapter sequencing." } },
+  { href: "/collectibles", labels: { "en-US": "Collectibles" }, description: { "en-US": "37 Relics, 8 Blades, 30 Charms, 5 Theseus Echoes by chapter." } },
+  { href: "/trophy-achievements", labels: { "en-US": "Trophies" }, description: { "en-US": "37-trophy PS5 / 36-achievement Xbox-PC roadmap and missable flags." } },
   { href: "/tips", labels: { "en-US": "Tips" }, description: { "en-US": "Beginner tips and Minoan sphere unlock priority." } },
-  { href: "/reviews", labels: { "en-US": "Reviews" }, description: { "en-US": "Launch reviews and aggregator scores." } },
+  { href: "/reviews", labels: { "en-US": "Reviews" }, description: { "en-US": "Launch reviews, per-outlet numeric scores and aggregator stance." } },
 ];
 
 export const footerNavigation: LocalizedNavigationItem[] = [
